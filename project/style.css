@@ -9,12 +9,8 @@ html{
 }
       
 body{
-    background-color: rgb(212, 238, 255);
-    margin: var(--header-height) 0 0 0;
-    font-family: var(--body-font);
-    font-size: var(--normal-font-size);
-    background: var(--body-color);
-    color: var(--text-color);
+    background-color: rgb(184, 223, 250);
+
 }
       
 h1,h2,h3,h4{
@@ -43,7 +39,7 @@ button{
 .nav-main{
     background-color: rgb(139, 182, 208);
     display: grid;
-    grid-template-columns: 200px 200px ;
+    grid-template-columns: 1fr 200px ;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 50px;
@@ -51,6 +47,7 @@ button{
 }
 .top-middle{
     color: white;
+
 }
 .top-right{
     display: grid;
@@ -62,6 +59,7 @@ button{
     justify-content: center;
     align-items: center;
     padding-right: 10px;
+
 }
 .top-grid2{
     display: flex;
@@ -77,4 +75,9 @@ button{
     align-items: center;
     padding-right: 10px;
 
+}
+.upper{
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
