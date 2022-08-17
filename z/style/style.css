@@ -63,7 +63,9 @@ button{
     padding-right: 10px;}
 
 
- /*.div-home{}*/
+ .div-home{
+    
+ }
 
 
 .upper{
@@ -74,18 +76,22 @@ button{
     margin-bottom: 20px;}
 .upper-left{
     background-color: aliceblue;
-    padding: 5px 20px 15px 20px;
+    
     width: auto;
     text-align: center;
     border: 1px solid #4CAF50;
     border-radius: 20px;}
-img{
-    max-width: 100%;
-    max-height: 100%;
-    display: block; /* remove extra space below image */}
+.img{
+    display: block;
+    padding: 10px 0px 10px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 72%;}
 .upper-right{
     background-color: aliceblue;
     padding-left: 25px;
+    border: 1px solid #4CAF50;
+    border-radius: 20px;
     text-align: center;}
 
 .intro{

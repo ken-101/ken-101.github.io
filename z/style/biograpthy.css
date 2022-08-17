@@ -24,7 +24,8 @@ button{
     font-size: var(--normal-font-size);}
 #container{
     min-height: 100%;
-    padding-bottom: 250px;}
+    padding-bottom: 250px;
+}
 /*     */
         /*main*//*  Top Bar  */
 .nav-main{
@@ -38,6 +39,7 @@ button{
     border-color: aquamarine;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-right: 10px;
     padding-left: 10px;}
 .top-middle{
     color: white;
@@ -66,6 +68,9 @@ button{
 /*  Bio1 is none a.t.m.  */
 
 /*   Bio2  */
+
+
+
 .bio2{
     background-color: beige;
     display: grid;
@@ -77,12 +82,12 @@ button{
     background-color: rgb(252, 134, 134);
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
-    grid-gap: 25px;
     height: auto;
     margin-bottom: 20px;
+
 }
 .bio2-credits{
-    text-align: center;
+    text-align: left;
 }
 .up-arrow{
     text-align: center;
@@ -92,9 +97,14 @@ button{
 }
 .bio2-2{
     background-color: rgb(35, 52, 199);
+    
+
+
 }
 .bio2-3{
     background-color: rgb(250, 149, 241);
+    margin-left: auto;
+    margin-right: auto;
 }
 .bio2-4{
     background-color: rgb(35, 52, 199);
