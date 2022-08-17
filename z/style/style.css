@@ -1,141 +1,101 @@
 *{
     box-sizing: border-box;
     padding: 0; 
-    margin: 0;
-}
-      
+    margin: 0;}      
 html{
-    scroll-behavior: smooth;
-}
-      
+    scroll-behavior: smooth;}      
 body{
     background-color: rgb(184, 223, 250);
-    display: block;
-
-}
+    display: block;}
 html,body{
-    height: 100%;
-}
-      
+    height: 100%;}     
 h1,h2,h3,h4{
     color: var(--title-color);
-    font-weight: var(--font-semi-bold);
-}
-
+    font-weight: var(--font-semi-bold);}
 img{
     max-width: 100%;
-    height: auto;
-}
-      
-button,
-input{
+    height: auto;}    
+button,input{
     border: none;
-    outline: none;
-}
-      
+    outline: none;}      
 button{
     cursor: pointer;
     font-family: var(--body-font);
-    font-size: var(--normal-font-size);
-}
+    font-size: var(--normal-font-size);}
 #container{
     min-height: 100%;
-    padding-bottom: 250px;
-    
-    
-}
+    padding-bottom: 250px;}
 
 .nav-main{
     margin-bottom: 20PX;
-    border-width: thin medium thick 10px;
-}
+    border-width: thin medium thick 10px;}
 .top-bar{
     background-color: rgb(139, 182, 208);
     display: grid;
-    grid-template-columns: 50px 1fr 200px ;
+    grid-template-columns: .5fr 4fr 1fr ;
     border-radius: 20PX;
     border-color: aquamarine;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 50px;
-}
+    padding-left: 10px;}
 .top-middle{
     color: white;
     display: flex;
     justify-content: center;
-    align-items: center;
-
-
-}
+    align-items: center;}
 .top-right{
     display: grid;
-    grid-template-columns: 70px 70px 90px;
-    
-  }
+    grid-template-columns: 70px 70px 90px;}
 .top-grid1{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 10px;
-
-}
+    padding-right: 70px;}
 .top-grid2{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 10px;
-
-
-}
+    padding-right: 45px;}
 .top-grid3{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 10px;
+    padding-right: 10px;}
 
-}
-.div-home{
-    
-}
+
+ /*.div-home{}*/
+
+
 .upper{
     display: grid;
     grid-template-columns: 1fr 1.3fr;
     grid-gap: 25px;
     height: auto;
-    margin-bottom: 20px;
-
-}
+    margin-bottom: 20px;}
 .upper-left{
     background-color: aliceblue;
     padding: 5px 20px 15px 20px;
     width: auto;
     text-align: center;
     border: 1px solid #4CAF50;
-    border-radius: 20px;
-}
+    border-radius: 20px;}
 img{
     max-width: 100%;
     max-height: 100%;
-    display: block; /* remove extra space below image */
-}
+    display: block; /* remove extra space below image */}
 .upper-right{
     background-color: aliceblue;
     padding-left: 25px;
-    text-align: center;
-}
+    text-align: center;}
 
 .intro{
     padding-top: 28px;
-    font-style: oblique;
-}
+    font-style: oblique;}
 .name{
     font-weight: 600;
-    padding-top: 40px;
-}
+    padding-top: 40px;}
 .about{
-    font-family: Garamond, serif;
-}
+    font-family: Garamond, serif;}
 
 
 /*        2nd       */
@@ -144,40 +104,34 @@ img{
     display: grid;
     grid-template-columns: 1fr;
     height: auto;
-    margin-bottom: 20px;
-
-}
+    margin-bottom: 20px;}
 .upper-left2{
     background-color: aliceblue;
-    padding: 5px 20px 15px 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: auto;
     text-align: center;
     border: 1px solid #4CAF50;
-    border-radius: 50px;
-}
+    border-radius: 50px;}
 img{
     max-width: 100%;
     max-height: 100%;
-    display: block; /* remove extra space below image */
-}
+    display: block; /* remove extra space below image */}
 .upper-right2{
     background-color: aliceblue;
     padding-left: 25px;
-    text-align: center;
-}
-
+    text-align: center;}
 .intro2{
     padding-top: 28px;
-    font-style: oblique;
-}
+    font-style: oblique;}
 .name2{
     font-weight: 600;
-    padding-top: 40px;
-}
+    padding-top: 40px;}
 .about2{
-    font-family: Garamond, serif;
-}
-/*foot*/
+    font-family: Garamond, serif;}
+
+    /*foot*/
+    
 #footer{
     background-color: aquamarine;
     position: relative;

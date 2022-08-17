@@ -1,97 +1,139 @@
 *{
     box-sizing: border-box;
     padding: 0; 
-    margin: 0;
-}
-      
+    margin: 0;}      
 html{
-    scroll-behavior: smooth;
-}
-      
+    scroll-behavior: smooth;}      
 body{
     background-color: rgb(184, 223, 250);
-    display: block;
-
-}
+    display: block;}
 html,body{
-    height: 100%;
-}
-      
+    height: 100%;}     
 h1,h2,h3,h4{
     color: var(--title-color);
-    font-weight: var(--font-semi-bold);
-}
-
+    font-weight: var(--font-semi-bold);}
 img{
     max-width: 100%;
-    height: auto;
-}
-      
-button,
-input{
+    height: auto;}    
+button,input{
     border: none;
-    outline: none;
-}
-      
+    outline: none;}      
 button{
     cursor: pointer;
     font-family: var(--body-font);
-    font-size: var(--normal-font-size);
-}
+    font-size: var(--normal-font-size);}
 #container{
     min-height: 100%;
-    padding-bottom: 250px;
-    
-    
-}
-
+    padding-bottom: 250px;}
+/*     */
+        /*main*//*  Top Bar  */
 .nav-main{
     margin-bottom: 20PX;
-    border-width: thin medium thick 10px;
-}
+    border-width: thin medium thick 10px;}
 .top-bar{
     background-color: rgb(139, 182, 208);
     display: grid;
-    grid-template-columns: 50px 1fr 200px ;
+    grid-template-columns: .5fr 4fr 1fr ;
     border-radius: 20PX;
     border-color: aquamarine;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 50px;
-}
+    padding-left: 10px;}
 .top-middle{
     color: white;
     display: flex;
     justify-content: center;
-    align-items: center;
-
-
-}
+    align-items: center;}
 .top-right{
     display: grid;
-    grid-template-columns: 70px 70px 90px;
-    
-  }
+    grid-template-columns: 70px 70px 90px;}
 .top-grid1{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 10px;
-
-}
+    padding-right: 70px;}
 .top-grid2{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 10px;
-
-
-}
+    padding-right: 45px;}
 .top-grid3{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 10px;
+    padding-right: 10px;}
+        /*main*//*  Bio */
+/*  Bio1 is none a.t.m.  */
 
+/*   Bio2  */
+.bio2{
+    background-color: beige;
+    display: grid;
+    grid-template-rows: 1fr 1fr 2fr 1fr 2fr 2fr;
+    grid-gap: 25px;
+    margin-bottom: 20px;
 }
+.bio2-1{
+    background-color: rgb(252, 134, 134);
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-gap: 25px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.bio2-credits{
+    text-align: center;
+}
+.up-arrow{
+    text-align: center;
+}
+.bio2-minimize{
+    text-align: center;
+}
+.bio2-2{
+    background-color: rgb(35, 52, 199);
+}
+.bio2-3{
+    background-color: rgb(250, 149, 241);
+}
+.bio2-4{
+    background-color: rgb(35, 52, 199);
+}
+.bio2-5{
+    background-color: rgb(250, 149, 241);
+}
+.bio2-6{
+    background-color: rgb(0, 0, 0);
+}
+
+
+        /*main*//*foot*/
+#footer{
+    background-color: aquamarine;
+    position: relative;
+    opacity: 100%;
+    height: 150px;
+    margin-top: -150px;
+    text-align: center;}
+.end-title{
+    font-family: 'Mr Dafoe', cursive;}
+.social-icon{
+    display: grid;
+    grid-template-columns: 20px 20px 20px 20px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+.fa-twitter{
+    padding-top: 20px;
+    padding-right: 30px;}
+.fa-facebook{
+    padding-top: 20px;
+    padding-right: 30px;}
+.fa-instagram{
+    padding-top: 20px;
+    padding-right: 30px;}
+.fa-youtube{
+    padding-top: 20px;
+    padding-right: 30px;}
+
+
