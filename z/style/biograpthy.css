@@ -88,6 +88,7 @@ button{
 
 .bio2{
     background-color: beige;
+    
     display: grid;
     grid-template-rows: 0fr 1fr 2fr 1fr 2fr 0fr;
     grid-gap: 10px;
@@ -136,11 +137,14 @@ button{
     padding: 10px 5px 10px 5px;
     margin: 0 10px 0 10px;
     text-align: center;
-    overscroll-behavior-inline: contain ;
-}
+    overscroll-behavior-inline: contain ;}
+.snaps-inline {
+    scroll-snap-type: x mandatory;
+    scroll-padding-inline: var(--_spacer, 1rem);} 
+  .snaps-inline > * {
+    scroll-snap-align: start;}
 .vid-title{
-    display: grid;
-}
+    display: grid;}
 .bio2-4{
     background-color: rgb(187, 255, 184);
     display: flex;
@@ -161,17 +165,50 @@ button{
     grid-auto-columns: auto;
     overflow-x: auto;
     padding: 10px 5px 10px 5px;
-    margin: 0 10px 0 10px;
-}
+    margin: 0 10px 0 10px;}
 .bio2-6{
     background-color: rgb(252, 134, 134);
-    height: auto;
+    height: 37.5px;
     display: flex;
     margin-top: auto;
     margin-bottom: auto;
     justify-content: center;
     align-items: center;
     text-align: center;}
+
+.bio3{
+    background-color: rgb(230, 230, 132);
+    display: grid;
+    grid-template-rows: 01fr 1fr 2fr 1fr 2fr 0fr;
+    grid-gap: 10px;
+    margin: 40px 0 30px 0;}
+.bio3-1{
+    background-color: rgb(252, 134, 134);
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: auto;
+    margin-bottom: 20px;}
+.bio3-credits{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;}
+.up-arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;}
+.bio3-minimize{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;}
+.bio3-2
+.bio3-3
+.bio3-4
+.bio3-5
+.bio3-6
+.bio3-7
 
 
 
