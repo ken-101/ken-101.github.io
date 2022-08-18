@@ -32,20 +32,23 @@ button{
 .top-bar{
     background-color: rgb(139, 182, 208);
     display: grid;
-    grid-template-columns: .5fr 4fr 1fr ;
+    grid-template-columns: .5fr 7fr 1fr ;
     border-radius: 20PX;
     border-color: aquamarine;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10px;}
 .top-middle{
+    background-color: aquamarine;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;}
 .top-right{
+    background-color: rgb(82, 255, 197);
     display: grid;
-    grid-template-columns: 70px 70px 90px;}
+    margin: auto;
+    grid-template-columns: 110px 100px 90px;}
 .top-grid1{
     display: flex;
     justify-content: center;
@@ -60,6 +63,7 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    
     padding-right: 10px;}
 
 
@@ -70,30 +74,32 @@ button{
 
 .upper{
     display: grid;
-    grid-template-columns: 1fr 1.3fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 25px;
     height: auto;
     margin-bottom: 20px;}
 .upper-left{
     background-color: aliceblue;
-    
-    width: auto;
     text-align: center;
     border: 1px solid #4CAF50;
     border-radius: 20px;}
 .img{
     display: block;
-    padding: 10px 0px 10px 0px;
     margin-left: auto;
     margin-right: auto;
-    width: 72%;}
+    border: 1px solid #491010;
+    border-radius: 30px;
+    width: 100%;}
 .upper-right{
     background-color: aliceblue;
     padding-left: 25px;
     border: 1px solid #4CAF50;
     border-radius: 20px;
     text-align: center;}
-
+.upper-right2{
+    border: 1px solid #4CAF50;
+    border-radius: 20px;
+}
 .intro{
     padding-top: 28px;
     font-style: oblique;}
