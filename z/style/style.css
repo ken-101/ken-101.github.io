@@ -39,37 +39,45 @@ button{
     padding-bottom: 20px;
     padding-left: 10px;}
 .top-middle{
-    background-color: aquamarine;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;}
 .top-right{
-    background-color: rgb(82, 255, 197);
     display: grid;
     margin: auto;
-    grid-template-columns: 110px 100px 90px;}
+    grid-template-columns: 60px 95px 90px;}
 .top-grid1{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 70px;}
+    margin: 0;
+    padding: 0;}
 .top-grid2{
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding-right: 45px;}
+    padding: 0;
+    margin: 0;
+    text-align: center;}
 .top-grid3{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    padding-right: 10px;}
+    margin-right: 10px;}
+.top-grid1:hover{
+    border: 1px solid rgb(38, 90, 135);
+    margin: 0;
+    padding: 0;
+    opacity: 70%;}
+.top-grid2:hover{
+    border: 1px solid rgb(50, 108, 158);
+    opacity: 70%;}
+.top-grid3:hover{
+    border: 1px solid rgb(67, 129, 183);
+    opacity: 70%;}
 
 
- .div-home{
-    
- }
+ /*.div-home{}/////////////////*/
 
 
 .upper{
@@ -88,8 +96,8 @@ button{
     margin-left: auto;
     margin-right: auto;
     border: 1px solid #491010;
-    border-radius: 30px;
-    width: 100%;}
+    border-radius: 20px;
+    max-width: 100%;}
 .upper-right{
     background-color: aliceblue;
     padding-left: 25px;
@@ -98,8 +106,7 @@ button{
     text-align: center;}
 .upper-right2{
     border: 1px solid #4CAF50;
-    border-radius: 20px;
-}
+    border-radius: 20px;}
 .intro{
     padding-top: 28px;
     font-style: oblique;}
@@ -117,18 +124,14 @@ button{
     grid-template-columns: 1fr;
     height: auto;
     margin-bottom: 20px;}
-.upper-left2{
+.intro-title{
     background-color: aliceblue;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     width: auto;
     text-align: center;
     border: 1px solid #4CAF50;
     border-radius: 50px;}
-img{
-    max-width: 100%;
-    max-height: 100%;
-    display: block; /* remove extra space below image */}
 .upper-right2{
     background-color: aliceblue;
     padding-left: 25px;

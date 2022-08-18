@@ -34,12 +34,11 @@ button{
 .top-bar{
     background-color: rgb(139, 182, 208);
     display: grid;
-    grid-template-columns: .5fr 4fr 1fr ;
+    grid-template-columns: .5fr 7fr 1fr ;
     border-radius: 20PX;
     border-color: aquamarine;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-right: 10px;
     padding-left: 10px;}
 .top-middle{
     color: white;
@@ -48,22 +47,38 @@ button{
     align-items: center;}
 .top-right{
     display: grid;
-    grid-template-columns: 70px 70px 90px;}
+    margin: auto;
+    grid-template-columns: 60px 95px 90px;}
 .top-grid1{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 70px;}
+    margin: 0;
+    padding: 0;}
 .top-grid2{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 45px;}
+    padding: 0;
+    margin: 0;
+    text-align: center;}
 .top-grid3{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 10px;}
+    margin-right: 10px;}
+    .top-grid1:hover{
+        border: 1px solid rgb(38, 90, 135);
+        margin: 0;
+        padding: 0;
+        opacity: 70%;}
+    .top-grid2:hover{
+        border: 1px solid rgb(50, 108, 158);
+        opacity: 70%;}
+    .top-grid3:hover{
+        border: 1px solid rgb(67, 129, 183);
+        opacity: 70%;}
+    
         /*main*//*  Bio */
 /*  Bio1 is none a.t.m.  */
 
@@ -74,47 +89,90 @@ button{
 .bio2{
     background-color: beige;
     display: grid;
-    grid-template-rows: 1fr 1fr 2fr 1fr 2fr 2fr;
-    grid-gap: 25px;
-    margin-bottom: 20px;
+    grid-template-rows: 0fr 1fr 2fr 1fr 2fr 0fr;
+    grid-gap: 10px;
+    margin: 40px 0 30px 0;
 }
 .bio2-1{
     background-color: rgb(252, 134, 134);
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     height: auto;
-    margin-bottom: 20px;
-
-}
+    margin-bottom: 20px;}
 .bio2-credits{
-    text-align: left;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;}
 .up-arrow{
-    text-align: center;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;}
 .bio2-minimize{
-    text-align: center;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;}
 .bio2-2{
-    background-color: rgb(35, 52, 199);
-    
-
-
-}
-.bio2-3{
-    background-color: rgb(250, 149, 241);
+    background-color: rgb(187, 255, 184);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
     margin-left: auto;
     margin-right: auto;
+    padding: 0 60px 0 60px;
+    font-family: 'Mr Dafoe';
+    font-style: normal;
+    font-size-adjust: 0.;}
+.bio2-3{
+    background-color: rgb(250, 149, 241);
+    display: grid;
+    grid-auto-flow: column;
+    gap: var(--size-3);
+    grid-auto-columns: auto;
+    overflow-x: auto;
+    padding: 10px 5px 10px 5px;
+    margin: 0 10px 0 10px;
+    text-align: center;
+    overscroll-behavior-inline: contain ;
+}
+.vid-title{
+    display: grid;
 }
 .bio2-4{
-    background-color: rgb(35, 52, 199);
-}
+    background-color: rgb(187, 255, 184);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 60px 0 60px;
+    font-family: 'Mr Dafoe';
+    font-style: normal;
+    font-size-adjust: 0.58;}
 .bio2-5{
     background-color: rgb(250, 149, 241);
+    display: grid;
+    grid-auto-flow: column;
+    gap: var(--size-3);
+    grid-auto-columns: auto;
+    overflow-x: auto;
+    padding: 10px 5px 10px 5px;
+    margin: 0 10px 0 10px;
 }
 .bio2-6{
-    background-color: rgb(0, 0, 0);
-}
+    background-color: rgb(252, 134, 134);
+    height: auto;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;}
+
 
 
         /*main*//*foot*/
