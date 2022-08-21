@@ -134,7 +134,7 @@ button{
     gap: var(--size-3);
     grid-auto-columns: auto;
     overflow-x: auto;
-    padding: 10px 299px 10px 299px;
+    padding: 10px 299px 10px 1rem;
     margin: 0 10px 0 10px;
     text-align: center;
     overscroll-behavior-inline: contain ;}
