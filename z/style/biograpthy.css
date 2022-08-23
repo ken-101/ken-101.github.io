@@ -82,60 +82,78 @@ button{
         /*main*//*  Bio */
 /*  Bio1 is none a.t.m.  */
 
-/*   Bio2  */
 
-
-
-.bio2{
-    background-color: beige;
-    
-    display: grid;
-    grid-template-rows: 0fr 1fr 2fr 1fr 2fr 0fr;
-    grid-gap: 10px;
-    margin: 40px 0 30px 0;
-}
-.bio2-1{
-    background-color: rgb(252, 134, 134);
-    display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
+/* arrow  */
+.transition-1{
+    width: min(70%, 40.5rem);
+    margin-inline: auto;
+    background-color: rgb(195, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    border: 4px solid aqua;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
     height: auto;
+    margin-top: 20px;
     margin-bottom: 20px;}
-.bio2-credits{
+.transition-credits{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: left;}
-.up-arrow{
+.transition-arrow{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;}
-.bio2-minimize{
+.transition-minimize{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;}
+
+
+/*   Bio2  */
+
+
+
+
+.bio2{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    background-color: rgb(195, 255, 255);
+    width: min(90%, 60.5rem);
+    margin-inline: auto;
+    border-radius: 10px;
+    border: 4px solid aqua;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+    display: grid;
+    grid-template-rows:  1fr 2fr 1fr 2fr ;
+    grid-gap: 2em;
+}
+
+
 .bio2-2{
     background-color: rgb(187, 255, 184);
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;    
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 60px 0 60px;
+    margin: auto;
+    padding: 20px 60px 20px 60px;
     font-family: 'Mr Dafoe';
     font-style: normal;
     font-size-adjust: 0.;}
 .bio2-3{
-    background-color: rgb(250, 149, 241);
+    background-color: rgb(164, 247, 247);
     display: grid;
     grid-auto-flow: column;
     gap: var(--size-3);
     grid-auto-columns: auto;
     overflow-x: auto;
-    padding: 10px 299px 10px 1rem;
-    margin: 0 10px 0 10px;
+    padding: 10px 0px 10px 0;
+    margin: 0;
     text-align: center;
     overscroll-behavior-inline: contain ;}
 .snaps-inline {
@@ -154,21 +172,22 @@ button{
     justify-content: center;
     align-items: center;
     text-align: center;    
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 60px 0 60px;
+    margin: auto;
+    padding: 20px 60px 20px 60px;
     font-family: 'Mr Dafoe';
     font-style: normal;
     font-size-adjust: 0.58;}
 .bio2-5{
-    background-color: rgb(250, 149, 241);
+    background-color: rgb(164, 247, 247);
     display: grid;
     grid-auto-flow: column;
     gap: var(--size-3);
     grid-auto-columns: auto;
     overflow-x: auto;
-    padding: 10px 5px 10px 5px;
-    margin: 0 10px 0 10px;}
+    padding: 10px 0px 10px 0;
+    margin: 0;
+    text-align: center;
+    overscroll-behavior-inline: contain ;}
 .bio2-6{
     background-color: rgb(252, 134, 134);
     height: 37.5px;

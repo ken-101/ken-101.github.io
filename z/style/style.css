@@ -1,11 +1,10 @@
 *{
-    box-sizing: border-box;
-    padding: 0; 
     margin: 0;}      
 html{
     scroll-behavior: smooth;}      
 body{
     background-color: rgb(184, 223, 250);
+    
     display: block;}
 html,body{
     height: 100%;}     
@@ -79,34 +78,51 @@ button{
 
  /*.div-home{}/////////////////*/
 
-
-.upper{
+ .container-1{
+    padding: 3em;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 25px;
-    height: auto;
-    margin-bottom: 20px;}
+    justify-content: center;
+    grid-gap: 2em;
+    
+}
+.upper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+    width: min(70%, 60.5rem);
+    margin-inline: auto;
+    padding: 2em;
+    background-color: rgb(214, 255, 255);
+    min-width: 50vw;
+    min-height: 30vh;
+    max-height: 100vh;
+    border-radius: 10px;
+    border: 4px solid aqua;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.1);}
+
 .upper-left{
-    background-color: aliceblue;
-    text-align: center;
-    border: 1px solid #4CAF50;
-    border-radius: 20px;}
-.img{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
+    height: auto;
+    width: 15em ;
+    border-radius: 20px;
+    padding: 2em;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.1);}
+.img{
+    display: inline-block;
     border: 1px solid #491010;
     border-radius: 20px;
     max-width: 100%;}
 .upper-right{
-    background-color: aliceblue;
-    padding-left: 25px;
-    border: 1px solid #4CAF50;
+    display: block;
+    justify-content: center;
+    height: auto;
+    width: 15em ;
     border-radius: 20px;
+    padding: 2em;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
     text-align: center;}
-.upper-right2{
-    border: 1px solid #4CAF50;
-    border-radius: 20px;}
 .intro{
     padding-top: 28px;
     font-style: oblique;}
@@ -119,22 +135,34 @@ button{
 
 /*        2nd       */
 
+
 .intro2{
     display: grid;
-    grid-template-columns: 1fr;
-    height: auto;
+    grid-template-rows: auto;
     margin-bottom: 20px;}
 .intro-title{
-    background-color: aliceblue;
+    
+    width: min(80%, 60.5rem);
+    margin-inline: auto;
+    margin: auto;
     padding-top: 10px;
-    padding-bottom: 10px;
-    width: auto;
+    padding-bottom: 20px;
+}
+.intro-title1{
     text-align: center;
-    border: 1px solid #4CAF50;
-    border-radius: 50px;}
+    background-color: rgb(207, 250, 250);
+    padding: 10px 0 10px 0;
+    border: 4px solid aqua;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 50px;
+}
 .upper-right2{
-    background-color: aliceblue;
-    padding-left: 25px;
+    width: min(87%, 60.5rem);
+    margin-inline: auto;
+    background-color: rgb(214, 255, 255);
+    border: 4px solid aqua;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 20px;
     text-align: center;}
 .intro2{
     padding-top: 28px;
