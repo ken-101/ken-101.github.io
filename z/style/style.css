@@ -4,7 +4,6 @@ html{
     scroll-behavior: smooth;}      
 body{
     background-color: rgb(184, 223, 250);
-    
     display: block;}
 html,body{
     height: 100%;}     
@@ -26,14 +25,15 @@ button{
     padding-bottom: 250px;}
 
 .nav-main{
+    position: sticky;
+    top: 0;
     margin-bottom: 20PX;
     border-width: thin medium thick 10px;}
 .top-bar{
-    background-color: rgb(139, 182, 208);
+    background-color: #47c9e0;
     display: grid;
     grid-template-columns: .5fr 7fr 1fr ;
     border-radius: 20PX;
-    border-color: aquamarine;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10px;}
@@ -45,18 +45,18 @@ button{
 .top-right{
     display: grid;
     margin: auto;
-    grid-template-columns: 60px 95px 90px;}
+    grid-template-columns: 60px 60px 90px;}
 .top-grid1{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
-    padding: 0;}
+    border: 1px solid #c3d8ff;}
 .top-grid2{
     display: flex;
     justify-content: center;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    border: 1px solid #8bb6d0;
     text-align: center;}
 .top-grid3{
     display: flex;
@@ -74,7 +74,10 @@ button{
 .top-grid3:hover{
     border: 1px solid rgb(67, 129, 183);
     opacity: 70%;}
+.top-grid1:active{
+    border: 1px solid #c3d8ff;
 
+}
 
  /*.div-home{}/////////////////*/
 
@@ -100,7 +103,6 @@ button{
     border-radius: 10px;
     border: 4px solid aqua;
     box-shadow: 10px 10px 30px rgba(0,0,0,0.1);}
-
 .upper-left{
     display: block;
     justify-content: center;
@@ -142,28 +144,41 @@ button{
     margin-bottom: 20px;}
 .intro-title{
     
-    width: min(80%, 60.5rem);
+    width: min(70%, 60.5rem);
     margin-inline: auto;
     margin: auto;
     padding-top: 10px;
-    padding-bottom: 20px;
-}
+    padding-bottom: 20px;}
 .intro-title1{
     text-align: center;
     background-color: rgb(207, 250, 250);
     padding: 10px 0 10px 0;
     border: 4px solid aqua;
     box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
-    border-radius: 50px;
-}
+    border-radius: 50px;}
 .upper-right2{
-    width: min(87%, 60.5rem);
+    padding: 1em 0 1em 0;
+    display: grid;
+    justify-content: center;
+    grid-gap: 2em;
+    width: min(80%, 60.5rem);
     margin-inline: auto;
     background-color: rgb(214, 255, 255);
     border: 4px solid aqua;
     box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
     border-radius: 20px;
     text-align: center;}
+.upper-right21{
+    display: flex;
+    flex-direction: column;
+
+    height: auto;
+    width: 15em ;
+    border-radius: 20px;
+    padding: 2em;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+    text-align: center;
+}
 .intro2{
     padding-top: 28px;
     font-style: oblique;}

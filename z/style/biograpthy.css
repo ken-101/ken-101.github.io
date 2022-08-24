@@ -32,7 +32,7 @@ button{
     margin-bottom: 20PX;
     border-width: thin medium thick 10px;}
 .top-bar{
-    background-color: rgb(139, 182, 208);
+    background-color: #47c9e0;
     display: grid;
     grid-template-columns: .5fr 7fr 1fr ;
     border-radius: 20PX;
@@ -48,72 +48,58 @@ button{
 .top-right{
     display: grid;
     margin: auto;
-    grid-template-columns: 60px 95px 90px;}
+    grid-template-columns: 60px 60px 90px;}
 .top-grid1{
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;}
+    align-items: center;}
 .top-grid2{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0;
-    margin: 0;
+    border: 1px solid #c3d8ff;
     text-align: center;}
 .top-grid3{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 10px;}
-    .top-grid1:hover{
-        border: 1px solid rgb(38, 90, 135);
-        margin: 0;
-        padding: 0;
-        opacity: 70%;}
-    .top-grid2:hover{
-        border: 1px solid rgb(50, 108, 158);
-        opacity: 70%;}
-    .top-grid3:hover{
-        border: 1px solid rgb(67, 129, 183);
-        opacity: 70%;}
-    
+.top-grid1:hover{
+    border: 1px solid rgb(38, 90, 135);
+    margin: 0;
+    padding: 0;
+    opacity: 70%;}
+.top-grid2:hover{
+    border: 1px solid rgb(50, 108, 158);
+    opacity: 70%;}
+.top-grid3:hover{
+    border: 1px solid rgb(67, 129, 183);
+    opacity: 70%;}
+
         /*main*//*  Bio */
 /*  Bio1 is none a.t.m.  */
 
 
 /* arrow  */
 .transition-1{
-    width: min(70%, 40.5rem);
+    width: min(90%, 4rem);
     margin-inline: auto;
+    padding: 0;
     background-color: rgb(195, 255, 255);
-    display: flex;
-    justify-content: space-evenly;
     border-radius: 10px;
     border: 4px solid aqua;
     box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
-    height: auto;
     margin-top: 20px;
     margin-bottom: 20px;}
-.transition-credits{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: left;}
 .transition-arrow{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;}
-.transition-minimize{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;}
+    padding: 0;
+}
 
 
-/*   Bio2  */
+/*   Bio 2  */
 
 
 
@@ -132,19 +118,15 @@ button{
     grid-template-rows:  1fr 2fr 1fr 2fr ;
     grid-gap: 2em;
 }
-
-
 .bio2-2{
-    background-color: rgb(187, 255, 184);
+    background-color: #89f8fc;
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;    
     margin: auto;
-    padding: 20px 60px 20px 60px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 40px;
     font-family: 'Mr Dafoe';
-    font-style: normal;
-    font-size-adjust: 0.;}
+    font-style: normal;}
 .bio2-3{
     background-color: rgb(164, 247, 247);
     display: grid;
@@ -152,31 +134,25 @@ button{
     gap: var(--size-3);
     grid-auto-columns: auto;
     overflow-x: auto;
-    padding: 10px 0px 10px 0;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
     margin: 0;
     text-align: center;
     overscroll-behavior-inline: contain ;}
 .snaps-inline {
     scroll-snap-type: x mandatory;
     scroll-padding-inline: var(--_spacer, 1rem);} 
-  .snaps-inline > * {
+.snaps-inline > * {
     scroll-snap-align: center;}
-.vid-title{
-    display: grid;
-    padding-left: 5px;
-    padding-right: 5px;
-}
 .bio2-4{
-    background-color: rgb(187, 255, 184);
+    background-color: #89f8fc;
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;    
     margin: auto;
-    padding: 20px 60px 20px 60px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 40px;
     font-family: 'Mr Dafoe';
-    font-style: normal;
-    font-size-adjust: 0.58;}
+    font-style: normal;}
 .bio2-5{
     background-color: rgb(164, 247, 247);
     display: grid;
@@ -184,7 +160,8 @@ button{
     gap: var(--size-3);
     grid-auto-columns: auto;
     overflow-x: auto;
-    padding: 10px 0px 10px 0;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
     margin: 0;
     text-align: center;
     overscroll-behavior-inline: contain ;}
@@ -197,45 +174,105 @@ button{
     justify-content: center;
     align-items: center;
     text-align: center;}
-
+    
+    /*   Bio 3  */
 .bio3{
-    background-color: rgb(230, 230, 132);
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    background-color: rgb(195, 255, 255);
+    width: min(90%, 60.5rem);
+    margin-inline: auto;
+    border-radius: 10px;
+    border: 4px solid aqua;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
     display: grid;
-    grid-template-rows: 01fr 1fr 2fr 1fr 2fr 0fr;
-    grid-gap: 10px;
-    margin: 40px 0 30px 0;}
+    grid-template-rows: 40px 70px 70px 70px 70px 70px 70px ;
+}
 .bio3-1{
-    background-color: rgb(252, 134, 134);
-    display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-    height: auto;
-    margin-bottom: 20px;}
-.bio3-credits{
+    margin: 10px;
+    text-align: center;
+}
+.bio3-2{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30px;
+    margin-right: 40vw;
+    padding: 5px 10px 5px 10px;
+    background-color: #89f8fc;
+    text-align: center;
+    border-radius: 40px;
+    font-family: 'Lobster', cursive;
+}
+.bio3-3{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: left;}
-.up-arrow{
+    margin: 15px 0 15px 40px;
+    padding: 5px 0px 5px 0px;
+    background-color: #89f8fc;
+    
+    border-radius: 40px;
+    font-family: 'Grandstander', cursive;
+    font-size: large;
+    font-weight: 600;
+}
+.bio3-4{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30px;
+    margin-right: 40vw;
+    padding: 5px 10px 5px 10px;
+    background-color: #89f8fc;
+    text-align: center;
+    border-radius: 40px;
+    font-family: 'Lobster', cursive;
+}
+.bio3-5{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;}
-.bio3-minimize{
+    margin: 15px 0 15px 40px;
+    padding: 5px 0px 5px 0px;
+    background-color: #89f8fc;
+    
+    border-radius: 40px;
+    font-family: 'Grandstander', cursive;
+    font-size: large;
+    font-weight: 600;
+
+}
+.bio3-6{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30px;
+    margin-right: 40vw;
+    padding: 5px 10px 5px 10px;
+    background-color: #89f8fc;
+    text-align: center;
+    border-radius: 40px;
+    font-family: 'Lobster', cursive;
+}
+.bio3-7{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;}
-.bio3-2
-.bio3-3
-.bio3-4
-.bio3-5
-.bio3-6
-.bio3-7
+    margin: 15px 0 15px 40px;
+    padding: 5px 0px 5px 0px;
+    background-color: #89f8fc;
+    
+    border-radius: 40px;
+    font-family: 'Grandstander', cursive;
+    font-size: large;
+    font-weight: 600;
+
+}
 
 
 
-        /*main*//*foot*/
-#footer{
+    /*main*//*foot*/
+
+.contacts{
     background-color: aquamarine;
     position: relative;
     opacity: 100%;
@@ -262,5 +299,4 @@ button{
 .fa-youtube{
     padding-top: 20px;
     padding-right: 30px;}
-
 
