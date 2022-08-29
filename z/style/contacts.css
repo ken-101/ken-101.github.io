@@ -26,6 +26,8 @@ button{
     padding-bottom: 250px;}
 
 .nav-main{
+    position: sticky;
+    top: 0;
     margin-bottom: 20PX;
     border-width: thin medium thick 10px;}
 .top-bar{
@@ -74,11 +76,9 @@ button{
     border: 1px solid rgb(67, 129, 183);
     opacity: 70%;}
 .top-grid1:active{
-    background-color: blue;
-}
+    background-color: blue;}
 .top-grid2:active{
-    background-color: blue;
-}
+    background-color: blue;}
 
 .container-1{
     padding: 3em;
