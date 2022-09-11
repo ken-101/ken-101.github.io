@@ -75,7 +75,10 @@ button{
 .top-grid3:hover{
     border: 1px solid rgb(67, 129, 183);
     opacity: 70%;}
-
+.top-grid1:active{
+    background-color: blue;}
+.top-grid3:active{
+background-color: blue;}
         /*main*//*  Bio */
 /*  Bio1 is none a.t.m.  */
 
@@ -277,15 +280,23 @@ button{
     justify-content: center;
     align-items: center;}
 .fa-twitter{
+    color: black;
+    text-decoration: none;
     padding-top: 20px;
     padding-right: 30px;}
 .fa-facebook{
+    color: black;
+    text-decoration: none;
     padding-top: 20px;
     padding-right: 30px;}
 .fa-instagram{
+    color: black;
+    text-decoration: none;
     padding-top: 20px;
     padding-right: 30px;}
 .fa-youtube{
+    color: black;
+    text-decoration: none;
     padding-top: 20px;
     padding-right: 30px;}
 

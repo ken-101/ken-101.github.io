@@ -77,6 +77,8 @@ button{
     opacity: 70%;}
 .top-grid1:active{
     background-color: blue;}
+.top-grid1:active{
+    background-color: blue;}
 .top-grid2:active{
     background-color: blue;}
 
@@ -109,18 +111,26 @@ button{
 .fa-twitter1{
     padding: 10px 10px 10px 10px;
     background-color: rgb(113, 234, 255);
+    color: black;
+    text-decoration: none;
     border-radius: 10px;}
 .fa-facebook1{
     padding: 10px 13px 10px 13px;
     background-color: rgb(104, 157, 255);
+    color: black;
+    text-decoration: none;
     border-radius: 10px;}
 .fa-instagram1{
     padding: 10px 10px 10px 10px;
     background-color: rgb(243, 115, 255);
+    color: black;
+    text-decoration: none;
     border-radius: 10px;}
 .fa-youtube1{
     padding: 10px 10px 10px 10px;
     background-color: rgb(255, 103, 103);
+    color: black;
+    text-decoration: none;
     border-radius: 10px;}
 
 
@@ -140,14 +150,22 @@ button{
     justify-content: center;
     align-items: center;}
 .icont{
+    color: black;
+    text-decoration: none;
     padding-top: 20px;
     padding-right: 30px;}
 .iconf{
+    color: black;
+    text-decoration: none;
     padding-top: 20px;
     padding-right: 30px;}
 .iconi{
+    color: black;
+    text-decoration: none;
     padding-top: 20px;
     padding-right: 30px;}
 .icony{
+    color: black;
+    text-decoration: none;
     padding-top: 20px;
     padding-right: 30px;}
