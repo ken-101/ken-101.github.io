@@ -114,28 +114,35 @@ button{
     background-color: rgb(113, 234, 255);
     color: black;
     text-decoration: none;
+    transition: 500ms;
     border-radius: 10px;}
 .fa-facebook1{
     padding: 10px 13px 10px 13px;
     background-color: rgb(104, 157, 255);
     color: black;
     text-decoration: none;
+    transition: 500ms;
     border-radius: 10px;}
 .fa-instagram1{
     padding: 10px 10px 10px 10px;
     background-color: rgb(243, 115, 255);
     color: black;
     text-decoration: none;
+    transition: 500ms;
     border-radius: 10px;}
 .fa-youtube1{
     padding: 10px 10px 10px 10px;
     background-color: rgb(255, 103, 103);
     color: black;
     text-decoration: none;
+    transition: 500ms;
     border-radius: 10px;}
 .light:hover{
     transition: 500ms;
     box-shadow: 0px 0px 70px rgb(107, 225, 255);
+}
+.opacity:hover{
+    opacity: 70%;
 }
 
 #footer{
