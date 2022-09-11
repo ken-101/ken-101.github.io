@@ -116,8 +116,7 @@ button{
     box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
     display: grid;
     grid-template-rows:  1fr 2fr 1fr 2fr ;
-    grid-gap: 2em;
-}
+    grid-gap: 2em;}
 .bio2-2{
     background-color: #89f8fc;
     display: flex;
@@ -187,12 +186,10 @@ button{
     border: 4px solid aqua;
     box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
     display: grid;
-    grid-template-rows: 40px 70px 70px 70px 70px 70px 70px ;
-}
+    grid-template-rows: 40px 70px 70px 70px 70px 70px 70px ;}
 .bio3-1{
     margin: 10px;
-    text-align: center;
-}
+    text-align: center;}
 .bio3-2{
     margin-top: auto;
     margin-bottom: auto;
@@ -202,8 +199,7 @@ button{
     background-color: #89f8fc;
     text-align: center;
     border-radius: 40px;
-    font-family: 'Lobster', cursive;
-}
+    font-family: 'Lobster', cursive;}
 .bio3-3{
     display: flex;
     justify-content: center;
@@ -215,8 +211,7 @@ button{
     border-radius: 40px;
     font-family: 'Grandstander', cursive;
     font-size: large;
-    font-weight: 600;
-}
+    font-weight: 600;}
 .bio3-4{
     margin-top: auto;
     margin-bottom: auto;
@@ -226,8 +221,7 @@ button{
     background-color: #89f8fc;
     text-align: center;
     border-radius: 40px;
-    font-family: 'Lobster', cursive;
-}
+    font-family: 'Lobster', cursive;}
 .bio3-5{
     display: flex;
     justify-content: center;
@@ -239,9 +233,7 @@ button{
     border-radius: 40px;
     font-family: 'Grandstander', cursive;
     font-size: large;
-    font-weight: 600;
-
-}
+    font-weight: 600;}
 .bio3-6{
     margin-top: auto;
     margin-bottom: auto;
@@ -251,8 +243,7 @@ button{
     background-color: #89f8fc;
     text-align: center;
     border-radius: 40px;
-    font-family: 'Lobster', cursive;
-}
+    font-family: 'Lobster', cursive;}
 .bio3-7{
     display: flex;
     justify-content: center;
@@ -264,9 +255,7 @@ button{
     border-radius: 40px;
     font-family: 'Grandstander', cursive;
     font-size: large;
-    font-weight: 600;
-
-}
+    font-weight: 600;}
 
 
 
