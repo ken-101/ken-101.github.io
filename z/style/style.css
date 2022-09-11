@@ -134,7 +134,7 @@ button{
 
 /*        2nd       */
 .upper:hover{
-        box-shadow: 10px 10px 30px rgba(107, 225, 255, 0.842);}
+    box-shadow: 0px 0px 70px rgb(107, 225, 255);}
 
 .intro2{
     display: grid;
@@ -168,7 +168,7 @@ button{
     border-radius: 20px;
     text-align: center;}
 .intro2:hover .light{
-    box-shadow: 10px 10px 30px rgba(107, 225, 255, 0.842);}
+    box-shadow: 0px 0px 70px rgb(107, 225, 255);}
 .upper-right21{
     display: flex;
     flex-direction: column;
@@ -211,8 +211,7 @@ button{
     margin-right: 25px;
     padding: 5px 5px 5px 5px;
     border: 1px solid #349983;
-    border-radius: 13px;
-}
+    border-radius: 13px;}
 .fa-facebook{
     color: black;
     text-decoration: none;

@@ -96,6 +96,7 @@ button{
     margin-inline: auto;
     border-radius: 10px;
     border: 4px solid aqua;
+    transition: 500ms;
     box-shadow: 10px 10px 30px rgba(0,0,0,0.1);}
 .message-1{
     display: grid;
@@ -132,7 +133,10 @@ button{
     color: black;
     text-decoration: none;
     border-radius: 10px;}
-
+.light:hover{
+    transition: 500ms;
+    box-shadow: 0px 0px 70px rgb(107, 225, 255);
+}
 
 #footer{
     background-color: aquamarine;
