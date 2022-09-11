@@ -152,20 +152,32 @@ button{
 .icont{
     color: black;
     text-decoration: none;
-    padding-top: 20px;
-    padding-right: 30px;}
+    margin-top: 15px;
+    margin-right: 25px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #349983;
+    border-radius: 13px;}
 .iconf{
     color: black;
     text-decoration: none;
-    padding-top: 20px;
-    padding-right: 30px;}
+    margin-top: 15px;
+    margin-right: 25px;
+    padding: 5px 8px 5px 8px;
+    border: 1px solid #349983;
+    border-radius: 20px;}
 .iconi{
     color: black;
     text-decoration: none;
-    padding-top: 20px;
-    padding-right: 30px;}
+    margin-top: 15px;
+    margin-right: 25px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #349983;
+    border-radius: 13px;}
 .icony{
     color: black;
     text-decoration: none;
-    padding-top: 20px;
-    padding-right: 30px;}
+    margin-top: 15px;
+    margin-right: 25px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #349983;
+    border-radius: 13px;}

@@ -83,9 +83,7 @@ button{
     padding: 3em;
     display: grid;
     justify-content: center;
-    grid-gap: 2em;
-    
-}
+    grid-gap: 2em;}
 .upper{
     display: flex;
     flex-wrap: wrap;
@@ -100,7 +98,8 @@ button{
     max-height: 100vh;
     border-radius: 10px;
     border: 4px solid aqua;
-    box-shadow: 10px 10px 30px rgba(0,0,0,0.1);}
+    transition: 500ms;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.144);}
 .upper-left{
     display: block;
     justify-content: center;
@@ -134,13 +133,14 @@ button{
 
 
 /*        2nd       */
-
+.upper:hover{
+        box-shadow: 10px 10px 30px rgba(107, 225, 255, 0.842);}
 
 .intro2{
     display: grid;
     grid-template-rows: auto;
     margin-bottom: 20px;}
-.intro-title{   
+.intro-title{
     width: min(70%, 60.5rem);
     margin-inline: auto;
     margin: auto;
@@ -151,6 +151,7 @@ button{
     background-color: rgb(207, 250, 250);
     padding: 10px 0 10px 0;
     border: 4px solid aqua;
+    transition: 500ms;
     box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
     border-radius: 50px;}
 .upper-right2{
@@ -162,9 +163,12 @@ button{
     margin-inline: auto;
     background-color: rgb(214, 255, 255);
     border: 4px solid aqua;
+    transition: 500ms;
     box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
     border-radius: 20px;
     text-align: center;}
+.intro2:hover .light{
+    box-shadow: 10px 10px 30px rgba(107, 225, 255, 0.842);}
 .upper-right21{
     display: flex;
     flex-direction: column;
@@ -203,21 +207,34 @@ button{
 .fa-twitter{
     color: black;
     text-decoration: none;
-    padding-top: 20px;
-    padding-right: 30px;}
+    margin-top: 15px;
+    margin-right: 25px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #349983;
+    border-radius: 13px;
+}
 .fa-facebook{
     color: black;
     text-decoration: none;
-    padding-top: 20px;
-    padding-right: 30px;}
+    margin-top: 15px;
+    margin-right: 25px;
+    padding: 5px 8px 5px 8px;
+    border: 1px solid #349983;
+    border-radius: 20px;}
 .fa-instagram{
     color: black;
     text-decoration: none;
-    padding-top: 20px;
-    padding-right: 30px;}
+    margin-top: 15px;
+    margin-right: 25px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #349983;
+    border-radius: 13px;}
 .fa-youtube{
     color: black;
     text-decoration: none;
-    padding-top: 20px;
-    padding-right: 30px;}
+    margin-top: 15px;
+    margin-right: 25px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #349983;
+    border-radius: 13px;}
     

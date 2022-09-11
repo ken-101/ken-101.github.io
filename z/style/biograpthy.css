@@ -24,6 +24,7 @@ button{
     min-height: 100%;
     padding-bottom: 250px;
 }
+
 /*     */
         /*main*//*  Top Bar  */
 .nav-main{
@@ -116,6 +117,7 @@ background-color: blue;}
     margin-inline: auto;
     border-radius: 10px;
     border: 4px solid aqua;
+    transition: 500ms;
     box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
     display: grid;
     grid-template-rows:  1fr 2fr 1fr 2fr ;
@@ -187,6 +189,7 @@ background-color: blue;}
     margin-inline: auto;
     border-radius: 10px;
     border: 4px solid aqua;
+    transition: 500ms;
     box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
     display: grid;
     grid-template-rows: 40px 70px 70px 70px 70px 70px 70px ;}
@@ -259,7 +262,10 @@ background-color: blue;}
     font-family: 'Grandstander', cursive;
     font-size: large;
     font-weight: 600;}
-
+.light:hover{
+    transition: 500ms;
+    box-shadow: 0px 0px 70px rgb(107, 225, 255);
+}
 
 
     /*main*//*foot*/
@@ -282,21 +288,33 @@ background-color: blue;}
 .fa-twitter{
     color: black;
     text-decoration: none;
-    padding-top: 20px;
-    padding-right: 30px;}
+    margin-top: 15px;
+    margin-right: 25px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #349983;
+    border-radius: 13px;}
 .fa-facebook{
     color: black;
     text-decoration: none;
-    padding-top: 20px;
-    padding-right: 30px;}
+    margin-top: 15px;
+    margin-right: 25px;
+    padding: 5px 8px 5px 8px;
+    border: 1px solid #349983;
+    border-radius: 20px;}
 .fa-instagram{
     color: black;
     text-decoration: none;
-    padding-top: 20px;
-    padding-right: 30px;}
+    margin-top: 15px;
+    margin-right: 25px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #349983;
+    border-radius: 13px;}
 .fa-youtube{
     color: black;
     text-decoration: none;
-    padding-top: 20px;
-    padding-right: 30px;}
+    margin-top: 15px;
+    margin-right: 25px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #349983;
+    border-radius: 13px;}
 
