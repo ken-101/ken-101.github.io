@@ -3,7 +3,7 @@
 html{
     scroll-behavior: smooth;}      
 body{
-    background-color: rgb(253, 224, 161);
+    background-color: #fde0a1;
     display: block;}
 html,body{
     height: 100%;}     
@@ -26,6 +26,17 @@ button{
 #container{
     min-height: 100%;
     padding-bottom: 250px;
+}
+.nothing{
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    background-color: #fde0a1;
+    width: min(75%, 20.5rem);
+    margin-inline: auto;
+    border-radius: 10px;
+    border: 4px solid #d38c23;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
 }
 .top{
     position: sticky;
