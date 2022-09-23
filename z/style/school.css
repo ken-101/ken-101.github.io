@@ -19,7 +19,7 @@ img{
 button,input{
     border: none;
     outline: none;}      
-button{
+button,.link{
     cursor: pointer;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);}
@@ -48,9 +48,10 @@ button{
     background-color: #ffffff;
     display: grid;
     grid-template-columns: 1fr 2fr .6fr ;
-    border-radius: 15px;
+    
     padding: 10px 0 10px 0;
 }
+
 .topbar1{
     display: flex;
     text-align: center;
@@ -103,7 +104,7 @@ padding-left: 2rem;
     background-color: #d38c23;
     margin-top: 28px;
     font-style: oblique;}
-.name{
+.link-grade{
     background-color: #f5b75a;
     font-family: Garamond, serif;
     font-weight: 600;
