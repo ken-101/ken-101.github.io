@@ -3,7 +3,7 @@
 html{
     scroll-behavior: smooth;}      
 body{
-    background-color: #fffffff3;
+    background-color: #38bb59c9;
     display: block;}
 html,body{
     height: 100%;}     
@@ -37,90 +37,69 @@ button{
     margin-inline: auto;
     border-radius: 10px;
     border: 4px solid #ffffff;
-    box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
-}
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.1);}
 .top{
     position: sticky;
     top: 0;
     border: solid 1px;
+    opacity: 50%;
+}
+.top:hover{
+    opacity: 80%;
 }
 .topbar{
-    
     background-color: #ffffff;
     display: grid;
-    grid-template-columns: 1fr 2fr .6fr ;
+    grid-template-columns: 1fr 1fr 1fr ;
     
     padding: 10px 0 10px 0;
 }
 
-.topbar1{
+.top-left{
     display: flex;
-    text-align: center;
     align-items: center;
+    justify-content: center;
 }
-.topbar2{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.top-middle{
+    display: flex;
     align-items: center;
+    justify-content: center;
     
 }
-.topbar1{
-padding-left: 2rem;
-}
-.topbar3{
+
+.top-right{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin-right: 2rem;
     align-items: center;
 }
 
-.login{
-    margin-right: 1rem;
-}
+.nothing{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 2em;
+    background-color: #ec7373;
+    width: min(75%, 20.5rem);
+    margin-inline: auto;
+    border-radius: 10px;
+    border: 4px solid #ffffff;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.1);}
+
 .container-1{
+    padding: 3em;
+    justify-content: center;}
+.container-2{
     padding: 3em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     grid-gap: 2em;}
-.upper-right{
-    display: inline;
-    justify-content: center;
-    height: 30rem;
-    width: 15em ;
-    border-radius: 20px;
-    padding: 2em;
-    box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
-    text-align: center;}
-.img1,.img{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    margin-right: 7rem;
-    top: 13px;
-}
-.img1:hover{
-    opacity: 0%;
-}
-.intro{
-    
-    border: solid 1px;
-    margin-top: 28px;
-    font-style: oblique;}
-.link-grade{
-    background-color: #ffc46b;
-    font-family: Garamond, serif;
-    font-weight: 600;
-    margin: 30px 0 10px 0;}
-.grade-12{
-    display: flex;
-    margin: 0%;
-    border: solid 1px blue;
-}
+.container-1{
+    padding: 3em;
+    justify-content: center;}
 
-.about{
-    font-family: Garamond, serif;
-    font-weight: 600;}
 #footer{
     background-color: aquamarine;
     position: relative;
