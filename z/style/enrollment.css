@@ -3,7 +3,7 @@
 html{
     scroll-behavior: smooth;}      
 body{
-    background-color: #38bb59c9;
+    background-color: #9af3b0e3;
     display: block;}
 html,body{
     height: 100%;}     
@@ -13,6 +13,7 @@ h1,h2,h4{
 h3{
     font-size: larger;
 }
+
 img{
     max-width: 100%;
     height: auto;}    
@@ -41,20 +42,18 @@ button{
 .top{
     position: sticky;
     top: 0;
-    border: solid 1px;
-    opacity: 50%;
-}
-.top:hover{
-    opacity: 80%;
-}
-.topbar{
-    background-color: #ffffff;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    
-    padding: 10px 0 10px 0;
 }
 
+
+.topbar{
+    background-color: #ffffff77;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    padding: 30px 0 30px 0;
+    
+}
+.topbar:hover{
+    background-color: #ffffffc5;}
 .top-left{
     display: flex;
     align-items: center;
@@ -74,7 +73,9 @@ button{
     margin-right: 2rem;
     align-items: center;
 }
-
+.box{
+    margin: 10px;
+}
 .nothing{
     display: flex;
     justify-content: center;
@@ -88,7 +89,6 @@ button{
     box-shadow: 10px 10px 30px rgba(0,0,0,0.1);}
 
 .container-1{
-    padding: 3em;
     justify-content: center;}
 .container-2{
     padding: 3em;
@@ -96,10 +96,21 @@ button{
     flex-wrap: wrap;
     justify-content: center;
     grid-gap: 2em;}
-.container-1{
-    padding: 3em;
-    justify-content: center;}
-
+.first{
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+    min-height: 75vh;
+    z-index: -1;
+    object-fit: cover;
+    object-position: 1% 0;
+} 
+.front-text{
+    font-size: larger;
+}
+.vision{
+    position: absolute;
+} 
 #footer{
     background-color: aquamarine;
     position: relative;
