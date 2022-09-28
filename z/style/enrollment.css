@@ -73,13 +73,13 @@ button{
     text-align: center;
     justify-content: center;}
 
-/*.front-text{
+.front-text{
     background-color: #ffffffaf;
     margin-top: 170px;
     text-align: center;
     font-size: 15px;
     font-weight: 900;
-}*/
+} 
 .top-right1{
     display: grid;
     justify-content: right;
