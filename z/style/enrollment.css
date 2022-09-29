@@ -161,7 +161,7 @@ button{
 .container-logo{
     position: absolute;
     display: flex;
-    background-color: #e4c4c4a9;
+    background-color: #ffffffd3;
     top: 15%;
     left: 43%;}
 .container-2{
@@ -169,6 +169,7 @@ button{
 .first{
     display: flex;
     z-index: -1;
+    
     } 
 .front-text{
     font-size: larger;}
