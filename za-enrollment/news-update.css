@@ -115,7 +115,6 @@ button{
     border: solid 2px black;
     padding: 5px 8px 5px 8px;
     margin: 0 50px 0 10px;}
-
 .box2-1:active{
     border: solid 2px black;
     background-color: black;
@@ -152,37 +151,3 @@ button{
     border-radius: 10px;
     border: 4px solid #ffffff;
     box-shadow: 10px 10px 30px rgba(0,0,0,0.1);}
-
- .container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;}
-.container-logo{
-    position: absolute;
-    display: flex;
-    background-color: #e4c4c4a9;
-    top: 15%;
-    left: 50%;
-    right: 5}
-.container-2{
-    justify-content: center;}
-.first{
-    display: flex;
-    z-index: -1;
-    } 
-.front-text{
-    font-size: larger;}
-.mission{
-    
-}
-.vision{
-    display: flex;    
-} 
-#footer{
-    background-color: aquamarine;
-    position: relative;
-    opacity: 100%;
-    height: 150px;
-    margin-top: -150px;
-    text-align: center;}
