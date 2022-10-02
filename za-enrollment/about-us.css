@@ -1,69 +1,153 @@
-*{
-    margin: 0;}      
-html{
-    scroll-behavior: smooth;}      
-body{
-    background-color: #ffa0a0;
-    display: block;}
-html,body{
-    height: 100%;}     
-h1,h2,h4{
-    color: var(--title-color);
-    font-weight: var(--font-semi-bold);}
-h3{
-    font-size: larger;}
-img{
-    max-width: 100%;
-    height: auto;}    
-button,input{
-    border: none;
-    outline: none;}      
-button{
-    cursor: pointer;
-    font-family: var(--body-font);
-    font-size: var(--normal-font-size);}
-#container{
-    min-height: 100%;
-    padding-bottom: 250px;}
-.nothing{
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    padding: 2em;
-    background-color: #ec7373;
-    width: min(75%, 20.5rem);
-    margin-inline: auto;
-    border-radius: 10px;
-    border: 4px solid #ffffff;
-    box-shadow: 10px 10px 30px rgba(0,0,0,0.1);}
-/* .top{
-    position: sticky;
-    top: 0;
-} */
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600');
 
-.fix-top{
+:root {
+  --background: #fd2424d9;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: #ffffff;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+}
+
+
+
+/* navigation styles start here */
+
+header {
+  background: var(--background);
+  text-align: center;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  width: 100%;
+  padding: 10px 0 10px;
+}
+
+/* changed this from the tutorial video to
+   allow it to gain focus, making it tabbable */
+.nav-toggle {
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
+
+.nav-toggle:focus ~ .nav-toggle-label {
+  outline: 3px solid rgba(lightblue, .75);
+}
+
+.nav-toggle-label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 1em;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.top-left2 {
+    display: flex;
+    grid-column: 2 / 3;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px black;
+    color: rgb(0, 0, 0);
+    padding: 0 8px 0 8px;
+    margin: 0 5px 0 25px;
+    font-weight: 800;
+}
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  display: block;
+  background: white;
+  height: 2px;
+  width: 2em;
+  border-radius: 2px;
+  position: relative;
+}
+a{
+    margin-top: 20px;
+}
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  content: '';
+  position: absolute;
+}
+
+.nav-toggle-label span::before {
+  bottom: 7px;
+}
+
+.nav-toggle-label span::after {
+  top: 7px;
+}
+
+nav {
+  position: absolute;
+  text-align: right;
+  top: 100%;
+  left: 0;
+  background: var(--background);
+  width: 100%;
+  transform: scale(1, 0);
+  transform-origin: top;
+  transition: transform 400ms ease-in-out;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  margin-bottom: 1em;
+  margin-right: 1em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  opacity: 0;
+  transition: opacity 150ms ease-in-out;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+.nav-toggle:checked ~ nav {
+  transform: scale(1,1);
+}
+
+.nav-toggle:checked ~ nav a {
+  opacity: 1;
+  transition: opacity 250ms ease-in-out 250ms;
+}
+.topbar{
     display: grid;
-    grid-template-rows: .5fr 1fr ;}
-.topbar1{
-    position: fixed;
-    background-color: #ffffff;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+@media screen and (min-width: 1000px) {
+  .nav-toggle-label {
+    display: none;
+  }
+
+  header {
     display: grid;
-    width: 100vw;
-    grid-template-columns: 1fr 1fr 3fr ;
-    padding: 5px 0 5px 0;}
-.topbar2{
-    position: fixed;
-    top: 29px;
-    width: 100vw;
-    background-color: #ff3535;
-    display: grid;
-    padding: 10px 0 10px 0;
-    min-height: 30px;
-    grid-template-columns: 1.5fr 3fr 2fr ;}
-.top-left{
-    display: grid;
-    row-gap: 20px;}
-.top-left2{
+    grid-template-columns: 3fr auto minmax(600px, 3fr) 1fr;
+  }
+  
+  .top-left2 {
+    grid-column: 2 / 3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,83 +155,77 @@ button{
     color: rgb(0, 0, 0);
     padding: 5px 8px 5px 8px;
     margin: 0 5px 0 20px;
-    font-weight: 800;}
-.top-middle{
+    font-weight: 800;
+  }
+  
+  nav {
+    
+    
+    /* the following lines are not from my video, but add Edge support */
+    position: relative;
+    text-align: left;
+    transition: none;
+    transform: scale(1,1);
+    background: none;
+    top: initial;
+    left: initial;
+    /* end Edge support stuff */
+    
+    grid-column: 3 / 4;
     display: flex;
+    justify-content: flex-end;
     align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 3em;
+    margin-bottom: 0;
+  }
+  
+  nav a {
+    opacity: 1;
+    position: relative;
+  }
+  
+  nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background: black;
+    position: absolute;
+    top: -.75em;
+    left: 0;
+    right: 0;
+    transform: scale(0, 1);
+    transition: transform ease-in-out 250ms;
+  }
+  
+  nav a:hover::before {
+    transform: scale(1,1);
+  }
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;}
+.container-logo{
+    position: absolute;
+    display: flex;
+    background-color: #ffffffd3;
+    top: 15%;
+    left: 43%;}
+.container-2{
     justify-content: center;}
+.first{
+    display: flex;
+    z-index: -1;
+    
+    } 
 .front-text{
-    background-color: #ffffffaf;
-    margin-top: 170px;
-    text-align: center;
-    font-size: 15px;
-    font-weight: 900;} 
-.top-right1{
-    display: grid;
-    justify-content: right;
-    grid-template-columns: 50px 50px;}
-.top-right2{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    font-size: 15px;
-    font-weight: 900;}
-.box2-1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: solid 2px black;
-    color: rgb(0, 0, 0);
-    padding: 5px 8px 5px 8px;
-    margin: 0 10px 0 10px;}
-.box2-2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    border: solid 2px black;
-    padding: 5px 8px 5px 8px;
-    margin: 0 10px 0 10px;}
-.box2-3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    border: solid 2px black;
-    padding: 5px 8px 5px 8px;
-    margin: 0 50px 0 10px;}
-.box2-1:active{
-    border: solid 2px black;
-    background-color: black;
-    color: #ff0000;
-    top: 100px;}
-.box2-2:active{
-    border: solid 2px black;
-    
-    background-color: black;
-    color: #ff0000;}
-.box2-3:active{
-    border: solid 2px black;
-    
-    background-color: black;
-    color: #ff0000;}
-.box{
-    display: flex;
-    margin: 0 5px 0 5px;
-    align-items: center;
-    text-align: center;
-    font-weight: 900;}
-.box2{
-    margin: 10px;
-    font-weight: 900;
-    font-size: 150%;}
-.nothing{
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    padding: 2em;
-    background-color: #ec7373;
-    width: min(75%, 20.5rem);
-    margin-inline: auto;
-    border-radius: 10px;
-    border: 4px solid #ffffff;
-    box-shadow: 10px 10px 30px rgba(0,0,0,0.1);}
+    font-size: larger;}
