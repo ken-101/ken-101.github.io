@@ -15,7 +15,9 @@ body {
 	font-weight: 400;
 }
 
-
+#container{
+  min-height: 100%;
+  padding-bottom: 250px;}
 
 /* navigation styles start here */
 

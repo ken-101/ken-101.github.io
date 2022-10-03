@@ -1,22 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600');
 
 :root {
-  --background: #fd2424d9;
-}
+  --background: #fd2424d9;}
 
 *, *::before, *::after {
-  box-sizing: border-box;
-}
+  box-sizing: border-box;}
 
 body {
 	margin: 0;
-	background-color: #ffffff;
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 400;
+	background-color: #fff8f8;
+	font-family: 'Work Sans', sans-serif; font-weight: 400;}
+
+h3, p{
+  margin: 5px 0 5px 0;
 }
-
-
-
 /* navigation styles start here */
 
 header {
@@ -26,20 +23,17 @@ header {
   z-index: 999;
   top: 0;
   width: 100%;
-  padding: 10px 0 10px;
-}
+  padding: 10px 0 10px;}
 
 /* changed this from the tutorial video to
    allow it to gain focus, making it tabbable */
 .nav-toggle {
   position: absolute !important;
   top: -9999px !important;
-  left: -9999px !important;
-}
+  left: -9999px !important;}
 
 .nav-toggle:focus ~ .nav-toggle-label {
-  outline: 3px solid rgba(lightblue, .75);
-}
+  outline: 3px solid rgba(lightblue, .75);}
 
 .nav-toggle-label {
   position: absolute;
@@ -48,8 +42,7 @@ header {
   margin-right: 1em;
   height: 100%;
   display: flex;
-  align-items: center;
-}
+  align-items: center;}
 .top-left2 {
     display: flex;
     grid-column: 2 / 3;
@@ -59,8 +52,7 @@ header {
     color: rgb(0, 0, 0);
     padding: 0 8px 0 8px;
     margin: 0 5px 0 25px;
-    font-weight: 800;
-}
+    font-weight: 800;}
 .nav-toggle-label span,
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
@@ -69,24 +61,19 @@ header {
   height: 2px;
   width: 2em;
   border-radius: 2px;
-  position: relative;
-}
+  position: relative;}
 a{
-    margin-top: 20px;
-}
+    margin-top: 20px;}
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
   content: '';
-  position: absolute;
-}
+  position: absolute;}
 
 .nav-toggle-label span::before {
-  bottom: 7px;
-}
+  bottom: 7px;}
 
 .nav-toggle-label span::after {
-  top: 7px;
-}
+  top: 7px;}
 
 nav {
   position: absolute;
@@ -97,19 +84,16 @@ nav {
   width: 100%;
   transform: scale(1, 0);
   transform-origin: top;
-  transition: transform 400ms ease-in-out;
-}
+  transition: transform 400ms ease-in-out;}
 
 nav ul {
   margin: 0;
   padding: 0;
-  list-style: none;
-}
+  list-style: none;}
 
 nav li {
   margin-bottom: 1em;
-  margin-right: 1em;
-}
+  margin-right: 1em;}
 
 nav a {
   color: white;
@@ -117,25 +101,20 @@ nav a {
   font-size: 1.2rem;
   text-transform: uppercase;
   opacity: 0;
-  transition: opacity 150ms ease-in-out;
-}
+  transition: opacity 150ms ease-in-out;}
 
 nav a:hover {
-  color: #000;
-}
+  color: #000;}
 
 .nav-toggle:checked ~ nav {
-  transform: scale(1,1);
-}
+  transform: scale(1,1);}
 
 .nav-toggle:checked ~ nav a {
   opacity: 1;
-  transition: opacity 250ms ease-in-out 250ms;
-}
+  transition: opacity 250ms ease-in-out 250ms;}
 .topbar{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
+    grid-template-columns: 1fr 1fr 1fr;}
 @media screen and (min-width: 1000px) {
   .nav-toggle-label {
     display: none;
@@ -207,6 +186,10 @@ nav a:hover {
   nav a:hover::before {
     transform: scale(1,1);
   }
+  #container{
+    min-height: 100%;
+    padding-bottom: 250px;}
+  
 }
 
 .container{
@@ -224,8 +207,70 @@ nav a:hover {
     justify-content: center;}
 .first{
     display: flex;
-    z-index: -1;
-    
-    } 
+    z-index: -1;} 
 .front-text{
     font-size: larger;}
+
+.container-1{
+  padding: 3em;
+  margin: 4rem 0 0 0;
+  justify-content: center;
+  min-height: 100%;
+  padding-bottom: 250px;
+  grid-gap: 2em;}
+  .quote{
+    display: flex;
+    background-color: #f3d9d9;
+    justify-content: center;
+  }
+  .upper{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-around;
+  width: min(100%, 80rem);
+  margin-inline: auto;
+  padding: 2em;
+  min-width: 70vw;
+  min-height: 30vh;
+  gap: 3rem;}
+.border{
+  background-color: hsl(0, 100%, 92%);
+  
+  border-radius: 10px;
+  border: 4px solid rgb(255, 0, 0);
+  transition: 500ms;
+}
+.upper-right{
+  display: block;
+  justify-content: center;
+  height: auto;
+  width: 15em ;
+  border-radius: 20px;
+  padding: 2em;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+  text-align: center;}
+.intro{
+  color: hsl(0, 95%, 23%);
+  font-style: oblique;}
+.name{
+  font-weight: 600;
+  padding-top: 10px;}
+.about{
+  margin: 1rem 0 5px 0;
+  font-family: Garamond, serif;}
+
+
+  /* button for enrollees */
+.button{
+  
+}
+
+
+#footer{
+  background-color: aquamarine;
+  position: relative;
+  opacity: 100%;
+  height: 150px;
+  margin-top: -150px;
+  text-align: center;}
