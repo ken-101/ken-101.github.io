@@ -30,13 +30,7 @@ header {
   width: 100%;
   padding: 10px 0 10px;
 }
-.au{
-  display: grid;
-  grid-template-columns: 1fr;
-}
-h5{
-  margin: 2px 0 3px 0;
-}
+
 /* changed this from the tutorial video to
    allow it to gain focus, making it tabbable */
 .nav-toggle {
@@ -225,39 +219,66 @@ nav a:hover {
 }
 
 .container-1{
-  padding: 3em;
-  margin: 4rem 0 0 0;
-  justify-content: center;
-  min-height: 100%;
-  padding-bottom: 250px;
-  grid-gap: 2em;}
-.container-logo{
-    position: absolute;
+    padding: 3em;
+    margin: 4rem 0 0 0;
+    justify-content: center;
+    min-height: 100%;
+    padding-bottom: 250px;
+    grid-gap: 2em;}
+.contact-1{
     display: flex;
-    background-color: #ffffffd3;
-    top: 15%;
-    left: 43%;}
-.container-2{
-    justify-content: center;}
-.first{
-    display: flex;
-    z-index: -1;
-    
-    } 
-.front-text{
-    font-size: larger;}
-
-.tnhs{
-  width: 220px;
-  display: flex;
-  padding: 0; 
+    justify-content: center;
+    padding: 2em;
+    background-color: rgb(255, 195, 195);
+    width: min(75%, 20.5rem);
+    margin-inline: auto;
+    border-radius: 10px;
+    border: 4px solid rgb(255, 0, 0);
+    transition: 500ms;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.1);}
+.message-1{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 20px;
+    justify-items: center;}
+.message-icon{
+    display: grid;
+    justify-items: center;
+    padding-top: 20px;
+    padding: 0 1fr 0 1fr;
+    grid-template-columns: 1fr 70px 70px 70px 70px 1fr;}
+.fa-twitter1{
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(113, 234, 255);
+    color: black;
+    text-decoration: none;
+    transition: 500ms;
+    border-radius: 10px;}
+.fa-facebook1{
+    padding: 10px 13px 10px 13px;
+    background-color: rgb(104, 157, 255);
+    color: black;
+    text-decoration: none;
+    transition: 500ms;
+    border-radius: 10px;}
+.fa-instagram1{
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(243, 115, 255);
+    color: black;
+    text-decoration: none;
+    transition: 500ms;
+    border-radius: 10px;}
+.fa-youtube1{
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(255, 103, 103);
+    color: black;
+    text-decoration: none;
+    transition: 500ms;
+    border-radius: 10px;}
+.light:hover{
+    transition: 500ms;
+    box-shadow: 0px 0px 70px rgb(255, 107, 107);
 }
-
-
-#footer{
-  background-color: aquamarine;
-  position: relative;
-  opacity: 100%;
-  height: 150px;
-  margin-top: -150px;
-  text-align: center;}
+.opacity:hover{
+    opacity: 70%;
+}
