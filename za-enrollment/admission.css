@@ -222,6 +222,7 @@ nav a:hover {
     display: flex;
     background-color: #f3d9d9;
     justify-content: center;
+    text-align: center;
   }
   .upper{
   display: flex;
@@ -235,6 +236,7 @@ nav a:hover {
   min-height: 30vh;
   gap: 3rem;}
 .border{
+  
   background-color: hsl(0, 100%, 92%);
   
   border-radius: 10px;
@@ -244,7 +246,7 @@ nav a:hover {
 .upper-right{
   display: block;
   justify-content: center;
-  height: auto;
+  min-height: 300px;
   width: 15em ;
   border-radius: 20px;
   padding: 2em;
@@ -257,15 +259,26 @@ nav a:hover {
   font-weight: 600;
   padding-top: 10px;}
 .about{
+  display: flex;
   margin: 1rem 0 5px 0;
-  font-family: Garamond, serif;}
-
-
-  /* button for enrollees */
-.button{
+  font-family: Garamond, serif;
+  justify-content: center;
   
 }
 
+
+  /* button for enrollees */
+ .button{
+  color: rgb(255, 220, 197);
+  background-color: rgb(168, 41, 41);
+  font-size: 120%;
+  padding: 6px 50px 7px 50px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.788);
+  }
+.button:active{
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.822) inset;
+}
 
 #footer{
   background-color: aquamarine;
