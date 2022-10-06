@@ -244,6 +244,11 @@ nav a:hover {
     z-index: -1;
     
     } 
+.principal{
+  display:block;  
+  justify-content: center; 
+  align-items:center; 
+}
 .front-text{
     font-size: larger;}
 
