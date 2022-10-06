@@ -230,7 +230,7 @@ nav a:hover {
     justify-content: center;
     padding: 2em;
     background-color: rgb(255, 195, 195);
-    width: min(150%, 300.5rem);
+    width: min(100%, 30.5rem);
     margin-inline: auto;
     border-radius: 10px;
     border: 4px solid rgb(255, 0, 0);

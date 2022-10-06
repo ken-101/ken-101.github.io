@@ -244,10 +244,22 @@ nav a:hover {
     z-index: -1;
     
     } 
+.faculty{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
 .principal{
-  display:block;  
+  display:flex;
+  margin: 0;  
   justify-content: center; 
   align-items:center; 
+}
+.tnhs-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .front-text{
     font-size: larger;}
