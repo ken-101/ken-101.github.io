@@ -228,6 +228,9 @@ nav a:hover {
     display: flex;
     z-index: -1;
     
-    } 
+    }
+.events{
+  margin-top: 100px;
+} 
 .front-text{
     font-size: larger;}
