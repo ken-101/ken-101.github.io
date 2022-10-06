@@ -230,11 +230,11 @@ nav a:hover {
     
     }
 .events{
-  display: grid;
-  grid-template-rows: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 300px;
 } 
 .front-text{
     font-size: larger;}
