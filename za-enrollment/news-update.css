@@ -30,7 +30,33 @@ header {
   width: 100%;
   padding: 10px 0 10px;
 }
+/* (phone) about us style start*/
+.no{
+  
+  position: absolute;
+  padding: 0;
+  top: 40%;
+  left: 55%;
+  display: none;
+  background-color: #e95e5e;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 3;
+}
+.op:focus-within .no{
+  display: grid;
+  grid-template-rows: 1fr;
+  position: absolute;
 
+}
+.abtus{
+  padding: 0;
+  margin: 0;
+}
+.abtus2{
+  padding: 0;
+  margin: 0;
+}
+/* (phone) about us style end*/
 /* changed this from the tutorial video to
    allow it to gain focus, making it tabbable */
 .nav-toggle {
