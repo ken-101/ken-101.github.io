@@ -35,26 +35,33 @@ header {
   
   position: absolute;
   padding: 0;
-  top: 40%;
-  left: 55%;
+  margin: 0;
+  top: 48%;
+  left: 37%;
   display: none;
-  background-color: #e95e5e;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 3;
 }
-.op:focus-within .no{
+.op:hover .no{
   display: grid;
-  grid-template-rows: 1fr;
+  grid-template-columns: auto 1fr;
+  grid-gap: 20px;
   position: absolute;
 
 }
+
 .abtus{
+  display: flex;
+  justify-content: right;
   padding: 0;
   margin: 0;
+  background-color: #e95e5e;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 .abtus2{
   padding: 0;
   margin: 0;
+  background-color: #e95e5e;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 /* (phone) about us style end*/
 
