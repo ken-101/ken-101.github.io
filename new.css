@@ -36,12 +36,12 @@ header {
   position: absolute;
   padding: 0;
   margin: 0;
-  top: 48%;
+  top: 50%;
   left: 37%;
   display: none;
   z-index: 3;
 }
-.op:hover .no{
+.op:focus-within .no{
   display: grid;
   grid-template-columns: auto 1fr;
   grid-gap: 20px;
