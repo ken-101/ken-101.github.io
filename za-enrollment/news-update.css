@@ -273,8 +273,7 @@ nav a:hover {
   }
   .event-title{
     display: flex;
-    margin-left: 3em;
-    text-align: center;
+    justify-content: center;
   }
   .event-description{
     display: flex;
