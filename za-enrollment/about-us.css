@@ -248,7 +248,7 @@ nav a:hover {
     padding-bottom: 250px;}
   .au{
     display: grid;
-    grid-template-columns: 70rem 1rem;
+    grid-template-columns: 50rem 30fr;
   }
 }
 
