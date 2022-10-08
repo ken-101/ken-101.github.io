@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600');
 
 :root {
-  --background: #fd2424d9;
-}
+  --background: rgb(255, 66, 66);}
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -35,26 +34,30 @@ header {
   
   position: absolute;
   padding: 0;
-  top: 40%;
-  left: 55%;
+  margin: 0;
+  top: 78px;
+  right: 16px;
   display: none;
-  background-color: #e95e5e;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 3;
 }
 .op:focus-within .no{
   display: grid;
-  grid-template-rows: 1fr;
+  grid-template-columns: auto 1fr;
+  grid-gap: 20px;
   position: absolute;
 
 }
 .abtus{
+  display: flex;
+  justify-content: right;
   padding: 0;
   margin: 0;
+  background-color: #fd2424;
 }
 .abtus2{
   padding: 0;
   margin: 0;
+  background-color: #fd2424;
 }
 /* (phone) about us style end*/
 
@@ -242,6 +245,35 @@ nav a:hover {
   
   nav a:hover::before {
     transform: scale(1,1);
+  }
+  .no{
+    display: flex;
+    justify-content: center;
+    margin: 6.4px 125px 0 0;
+    padding: 0 0 10px 0;
+    position: absolute;
+    display: none;
+    gap: 70px;
+    background-color: #fd2424d9;
+    z-index: 3;
+  }
+  .op:focus-within .no {
+    display: grid;
+    grid-template-columns: 150px;
+    
+  }
+  .abtus{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    top: 0;
+  }
+  .abtus2{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0 0;
+    padding: 0;
   }
   #container{
     min-height: 100%;
