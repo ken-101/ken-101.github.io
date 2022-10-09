@@ -13,7 +13,9 @@ body {
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;
 }
-
+h4{
+  margin: 0;
+}
 #container{
   min-height: 100%;
   padding-bottom: 250px;}
@@ -321,9 +323,49 @@ nav a:hover {
   justify-content: center;
   align-items: center;
 }
-.front-text{
-    font-size: larger;}
-
+.pics{
+  border: 4px solid rgb(255, 0, 0);
+  border-radius: 50px 50px 0 0;
+  height: 150px;
+  object-fit: cover;
+}
+.background{
+  background-color: rgb(255, 198, 198);
+}
+.gr{
+  display: flex;
+  width: 190px;
+  position: sticky;
+  top: 100px;
+  background-color: #ff4444;
+  padding: 3px 0 3px 10px;
+  margin: 10px 0 10px 0;
+}
+.teacher{
+  justify-content: center;
+  text-align: center;
+  background-color: #f777776b;
+  padding: 5px 5px 10px 5px;
+  border-radius: 20px;
+  height: 250px;
+}
+.row-pics{
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  grid-gap: 100px;
+}
+.row-1{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-evenly;
+}
+.row-2{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-around;
+}
 .tnhs{
   width: 85px;
   display: flex;
