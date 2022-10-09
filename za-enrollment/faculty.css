@@ -13,8 +13,9 @@ body {
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;
 }
-h4{
+h4, hr{
   margin: 0;
+  padding: 0;
 }
 #container{
   min-height: 100%;
@@ -291,7 +292,7 @@ nav a:hover {
   margin: 4rem 0 0 0;
   justify-content: center;
   min-height: 100%;
-  padding-bottom: 250px;
+
   grid-gap: 2em;}
 .container-logo{
     position: absolute;
@@ -331,6 +332,9 @@ nav a:hover {
 }
 .background{
   background-color: rgb(255, 198, 198);
+  border-radius: 50px;
+  padding: 50px 50px 100px 50px;
+  height: auto;
 }
 .gr{
   display: flex;
@@ -344,15 +348,15 @@ nav a:hover {
 .teacher{
   justify-content: center;
   text-align: center;
-  background-color: #f777776b;
+  background-color: #f7777780;
   padding: 5px 5px 10px 5px;
   border-radius: 20px;
   height: 250px;
 }
 .row-pics{
-  display: grid;
-  grid-template-rows: 1fr 2fr;
-  grid-gap: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 .row-1{
   display: flex;
