@@ -190,6 +190,9 @@ nav a:hover {
     margin: 0 5px 0 20px;
     font-weight: 800;
   }
+  .top-left2:hover{
+    opacity: 70%;
+  }
   
   nav {
     
