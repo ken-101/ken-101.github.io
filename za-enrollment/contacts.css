@@ -279,7 +279,9 @@ nav a:hover {
     grid-template-columns: 70rem 1rem;
   }
 }
-
+img{
+  cursor: context-menu;
+}
 .container-1{
     margin: 200px 0 0 0;
     justify-content: center;
@@ -307,38 +309,69 @@ nav a:hover {
     padding-top: 20px;
     padding: 0 1fr 0 1fr;
     grid-template-columns: 1fr 70px 70px 70px 70px 1fr;}
-.fa-twitter1{
-    padding: 10px 10px 10px 10px;
-    background-color: rgb(113, 234, 255);
-    color: black;
+.fa-ggmail1{
+    margin: 10px 10px 10px 10px;
+    /* background-color: rgb(113, 234, 255); */
+    background-color: #eb0a0acb;
+    color: rgb(255, 195, 195);
     text-decoration: none;
     transition: 500ms;
     border-radius: 10px;}
+    .gg-mail,
+.gg-mail::after {
+    display: block;
+    box-sizing: border-box;
+    height: 14px;
+    border: 2px solid
+}
+.gg-mail {
+    overflow: hidden;
+    transform: scale(var(--ggs,1));
+    position: relative;
+    width: 18px;
+    border-radius: 2px
+}
+.gg-mail::after {
+    content: "";
+    position: absolute;
+    border-radius: 3px;
+    width: 14px;
+    transform: rotate(-45deg);
+    bottom: 3px;
+    left: 0
+}
 .fa-facebook1{
     padding: 10px 13px 10px 13px;
-    background-color: rgb(104, 157, 255);
-    color: black;
+    margin: 10px 10px 10px 10px;
+    /* background-color: rgb(104, 157, 255); */
+    background-color: #eb0a0acb;
+    color: rgb(255, 195, 195);
     text-decoration: none;
+    
     transition: 500ms;
     border-radius: 10px;}
 .fa-instagram1{
-    padding: 10px 10px 10px 10px;
-    background-color: rgb(243, 115, 255);
-    color: black;
-    text-decoration: none;
-    transition: 500ms;
-    border-radius: 10px;}
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  /* background-color: rgb(243, 115, 255); */
+  background-color: #eb0a0acb;
+  color: rgb(255, 195, 195);
+  text-decoration: none;
+  transition: 500ms;
+  border-radius: 10px;}
 .fa-youtube1{
-    padding: 10px 10px 10px 10px;
-    background-color: rgb(255, 103, 103);
-    color: black;
-    text-decoration: none;
-    transition: 500ms;
-    border-radius: 10px;}
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  /* background-color: rgb(255, 103, 103); */
+  background-color: #eb0a0acb;
+  color: rgb(255, 195, 195);
+  text-decoration: none;
+  transition: 500ms;
+  border-radius: 10px;}
 .light:hover{
-    transition: 500ms;
-    box-shadow: 0px 0px 70px rgb(255, 107, 107);
+  transition: 500ms;
+  /* box-shadow: 0px 0px 70px rgb(255, 107, 107); */
 }
 .opacity:hover{
-    opacity: 70%;
+  opacity: 70%;
 }
