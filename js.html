@@ -9,7 +9,7 @@
 </head>
 <body>
     <nav><a href="new.html">school</a></nav>
-    <div class="calculator-grid">
+    <!-- <div class="calculator-grid">
         <div class="output">
             <div data-previous-operand class="previous-operand"></div>
             <div data-current-operand class="current-operand"></div>
@@ -32,8 +32,30 @@
     <button data-number>.</button>
     <button data-number>0</button>
     <button data-equals class="span2">=</button>
-    </div>
-
+    </div> -->
+    <section class="container">
+        <form id="my-form">
+            <h1>Add User</h1>
+            <div class="msg"></div>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="text" id="email">
+            </div>
+            <input class="btn" type="submit" value="Submit">
+        </form>
+  
+        <ul id="users"></ul>
+  
+        <!-- <ul class="items">
+          <li class="item">Item 1</li>
+          <li class="item">Item 2</li>
+          <li class="item">Item 3</li>
+        </ul> -->
+      </section>
 
     <script src="z/js/index.js"></script>
 </body>
