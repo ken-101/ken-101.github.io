@@ -173,14 +173,10 @@ nav a:hover {
 }
 @media screen and (min-width: 1000px) {
   .nav-toggle-label {
-    display: none;
-  }
-
+    display: none;}
   header {
     display: grid;
-    grid-template-columns: 3fr auto minmax(600px, 3fr) 1fr;
-  }
-  
+    grid-template-columns: 3fr auto minmax(600px, 3fr) 1fr;}
   .top-left2 {
     grid-column: 2 / 3;
     display: flex;
@@ -190,12 +186,8 @@ nav a:hover {
     color: rgb(0, 0, 0);
     padding: 5px 8px 5px 8px;
     margin: 0 5px 0 20px;
-    font-weight: 800;
-  }
-  
-  nav {
-    
-    
+    font-weight: 800;}
+  nav { 
     /* the following lines are not from my video, but add Edge support */
     position: relative;
     text-align: left;
@@ -209,23 +201,15 @@ nav a:hover {
     grid-column: 3 / 4;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-  }
-  
+    align-items: center;}
   nav ul {
-    display: flex;
-  }
-  
+    display: flex;}
   nav li {
     margin-left: 3em;
-    margin-bottom: 0;
-  }
-  
+    margin-bottom: 0;}
   nav a {
     opacity: 1;
-    position: relative;
-  }
-  
+    position: relative;}
   nav a::before {
     content: '';
     display: block;
@@ -236,12 +220,9 @@ nav a:hover {
     left: 0;
     right: 0;
     transform: scale(0, 1);
-    transition: transform ease-in-out 250ms;
-  }
-  
+    transition: transform ease-in-out 250ms;}
   nav a:hover::before {
-    transform: scale(1,1);
-  }
+    transform: scale(1,1);}
   .no{
     display: flex;
     justify-content: center;
@@ -251,34 +232,79 @@ nav a:hover {
     display: none;
     gap: 70px;
     background-color: #fd2424d9;
-    z-index: 3;
-  }
+    z-index: 3;}
   .op:focus-within .no {
     display: grid;
-    grid-template-columns: 150px;
-    
-  }
+    grid-template-columns: 150px;}
   .abtus{
     display: flex;
     justify-content: center;
     margin: 0;
     padding: 0;
-    top: 0;
-  }
+    top: 0;}
   .abtus2{
     display: flex;
     justify-content: center;
     margin: 10px 0 0 0;
-    padding: 0;
-  }
+    padding: 0;}
   #container{
     min-height: 100%;
     padding-bottom: 250px;}
   .au{
     display: grid;
-    grid-template-columns: 70rem 1rem;
+    grid-template-columns: 70rem 1rem;}}
+
+.container {
+  margin: auto;
+  width: 500px;
+  overflow: auto;
+  padding: 3rem 2rem;
   }
-}
+  
+  #my-form {
+  padding: 2rem;
+  background: #f4f4f4;
+  }
+  
+  #my-form label {
+  display: block;
+  }
+  
+  #my-form input[type='text'] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  }
+  
+  .btn {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  border: 0;
+  background: #333;
+  color: #fff;
+  border-radius: 5px;
+  margin: 5px 0;
+  }
+  
+  .btn:hover {
+  background: #444;
+  }
+  
+  .bg-dark {
+  background: #333;
+  color: #fff;
+  }
+  
+  .error {
+  background: orangered;
+  color: #fff;
+  padding: 5px;
+  margin: 5px;
+  }
+
 img{
   cursor: context-menu;
 }
