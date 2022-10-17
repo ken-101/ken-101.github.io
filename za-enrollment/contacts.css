@@ -256,9 +256,9 @@ nav a:hover {
 
 .container {
   margin: auto;
-  width: 500px;
+  width: auto;
   overflow: auto;
-  padding: 3rem 2rem;
+  padding: 2rem 1rem;
   }
   
   #my-form {

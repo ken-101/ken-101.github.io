@@ -312,7 +312,7 @@ nav a:hover {
   width: 15em ;
   border-radius: 20px;
   padding: 2em;
-  box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+  box-shadow: 7px 5px 3px rgba(177, 65, 65, 0.781);
   text-align: center;}
 .intro{
   color: hsl(0, 95%, 23%);
@@ -332,11 +332,11 @@ nav a:hover {
   /* button for enrollees */
  .button{
   color: rgb(255, 220, 197);
-  background-color: rgb(168, 41, 41);
+  background-color: rgba(168, 41, 41, 0.801);
   font-size: 120%;
   padding: 6px 50px 7px 50px;
   border-radius: 15px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.788);
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.788);
   }
 .button:active{
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.822) inset;
