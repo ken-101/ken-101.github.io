@@ -323,7 +323,7 @@ nav a:hover {
 }
 .pics{
   border: 4px solid rgb(255, 0, 0);
-  border-radius: 50px 50px 0 0;
+  border-radius: 60px;
   height: 150px;
   object-fit: cover;
 }
@@ -333,9 +333,13 @@ nav a:hover {
   padding: 50px 50px 100px 50px;
   height: auto;
 }
+.gr-pic{
+  display: flex; justify-content: center; width: 150px;
+}
 .gr{
   display: flex;
   width: 190px;
+  opacity: 60%;
   position: sticky;
   top: 100px;
   background-color: #ff4444;
@@ -347,7 +351,7 @@ nav a:hover {
   text-align: center;
   background-color: #f7777780;
   padding: 5px 5px 10px 5px;
-  border-radius: 20px;
+  border-radius: 60px 60px 20px 20px ;
   height: 250px;
 }
 .row-pics{
