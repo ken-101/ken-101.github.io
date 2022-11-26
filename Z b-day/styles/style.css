@@ -20,6 +20,9 @@ button{
     cursor: pointer;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);}
+:root{
+    --bg-color:red;
+}
 #container{
     min-height: 100%;
     padding-bottom: 250px;}
@@ -27,17 +30,16 @@ button{
 .nav-main{
     position: sticky;
     top: 0;
-    margin-bottom: 20PX;
+    height: 85px;
     border-width: thin medium thick 10px;}
 .top-bar{
     background-color: #47c9e0;
-    display: grid;
-    grid-template-columns: .5fr 7fr 1fr ;
+    display: flex;
+    justify-content: space-around;
     border-radius: 20PX;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 10px;}
-.top-middle{
+    padding: 15px 0 15px 10px; 
+    }
+/* .top-middle{
     color: white;
     display: flex;
     justify-content: center;
@@ -75,7 +77,7 @@ button{
 .top-grid2:active{
     background-color: blue;}
 .top-grid2:active{
-    background-color: blue;}
+    background-color: blue;} */
 
  /*.div-home{}/////////////////*/
 
@@ -86,7 +88,6 @@ button{
     grid-gap: 2em;}
 .upper{
     display: flex;
-    flex-wrap: wrap;
     align-items: stretch;
     justify-content: space-around;
     width: min(70%, 60.5rem);
