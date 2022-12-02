@@ -334,7 +334,7 @@ img{
     justify-items: center;
     padding-top: 20px;
     padding: 0 1fr 0 1fr;
-    grid-template-columns: 1fr 70px 70px 70px 70px 1fr;}
+    grid-template-columns: 1fr 70px 70px 70px 1fr;}
 .fa-ggmail1{
     margin: 10px 10px 10px 10px;
     /* background-color: rgb(113, 234, 255); */
