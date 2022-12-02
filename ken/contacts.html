@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
     <link rel="stylesheet" href="style/contacts.css">
-    <title>Document</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,11 +15,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,200;0,300;1,200;1,300&family=Lobster&family=Noto+Serif+Tamil:ital,wght@1,300;1,400&family=Tomorrow:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
         <div class="topbar">
-            <div class="logo"><img class="img1" style=" width: 70px; height: auto; justify-content: center;" src="image/school-logo.png" alt="shoes" ></div>
+            <div class="logo"><img class="img1" style=" cursor: context-menu; width: 70px; height: auto; justify-content: center;" src="z/image/school-logo.png" alt="shoes" ></div>
             <div><a href="index.html" style="text-decoration:none; font-size: 200%;  "><span class="top-left2" style="border: solid 2px black; margin-top: 12px;"><!--I&nbsp;LOVE&nbsp;-->T.N.H.S.</span></a></div>
         </div>    
             <input type="checkbox" id="nav-toggle" class="nav-toggle">
@@ -33,46 +34,60 @@
                         <a href="about-us.html" class="abtus2">SCHOOL&nbsp;INFO</a>
                     </div>
                 </li>
-                <li><a href="contacts.html">Contact</a></li>
+                <li><a href="contacts-1.html">Contact</a></li>
           </ul>
         </nav>
         <label for="nav-toggle" class="nav-toggle-label">
             <span></span>
         </label>
     </header>
-        <div id="container">
-            <div class="container-1">
-                <div class="contact-1 light">
-                    <div class="message">
-                        <div class="message-1">-- Contacts --</div>
-                        <div class="message-icon">
-                            <div></div>
-                            <div ><a class="fa fa-twitter fa-twitter1 opacity" href=""></a></div>
-                            <div ><a class="fa fa-facebook fa-facebook1 opacity" target="_blank" href="https://www.facebook.com/Kenn-103074092541123"></a></div>
-                            <div ><a class="fa fa-instagram fa-instagram1 opacity" target="_blank" href="https://www.instagram.com/vinnity_/"></a></div>
-                            <div ><a class="fa fa-youtube fa-youtube1 opacity" href="#"></a></div>
-                            <div></div>
-                        </div>
+      
+    <div class="container-1" id="container">
+        <div class="container-1">
+            <div class="contact-1 light">
+                <div class="message">
+                    <div class="message-1">---- Message Me ----</div>
+                    <div class="message-icon">
+                        <div></div>
+                        <div class="fa-ggmail1 opacity"><a class="fa gg-mail fa-ggmail1" href="mailto:305460@deped.gov.ph"></a></div>
+                        <div ><a class="fa fa-facebook fa-facebook1 opacity" target="_blank" href="https://web.facebook.com/taguignationalhs1980"></a></div>
+                        <div ><a class="fa fa-instagram fa-instagram1 opacity" target="_blank" href="https://www.instagram.com/vinnity_/"></a></div>
+                        <div ><a class="fa fa-youtube fa-youtube1 opacity" href="#"></a></div>
+                        <div></div>
                     </div>
-                    <div class="contact">
+                </div>
+                <div class="contact">
 
-                    </div>
-                    <div class="donate">
+                </div>
+                <div class="donate">
 
-                    </div>
                 </div>
             </div>
         </div>
-    
-    <div class="contacts" id="footer">
-        <h2><span class="end-title"> The End </span></h2>
-        <h5><span class="end-note">about updating this site, adding more features and something</span></h5>
-        <div class="social-icon">
-            <div><a class="fa fa-twitter icont" href="#"></a></div>
-            <div><a class="fa fa-facebook iconf" target="_blank" href="https://www.facebook.com/Kenn-103074092541123"></a></div>
-            <div><a class="fa fa-instagram iconi" target="_blank" href="https://www.instagram.com/vinnity_/"></a></div>
-            <div><a class="fa fa-youtube icony" href="#"></a></div>
-        </div>
     </div>
+    <section class="container">
+        <form id="my-form">
+            <h1>Add User</h1>
+            <div class="msg"></div>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name">
+            </div>
+            <div>
+                <label for="email">Section:</label>
+                <input type="text" id="email">
+            </div>
+            <input class="btn" type="submit" value="Submit">
+        </form>
+  
+        <ul id="users"></ul>
+  
+        <!-- <ul class="items">
+          <li class="item">Item 1</li>
+          <li class="item">Item 2</li>
+          <li class="item">Item 3</li>
+        </ul> -->
+      </section>
+      <script src="z/js/index.js"></script>
 </body>
 </html>
