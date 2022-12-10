@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 200vh;
+}
+header{
+    background: linear-gradient(to right, hsla(6, 66%, 35%, 0.655), hsla(353, 85%, 53%, 0.655)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+    transition: 0.6s;
+    padding: 13px 50px;
+    z-index: 5;
+}
+header.sticky{
+    position: fixed;
+    padding: 7px 100px;
+    background: linear-gradient(to right, hsl(6, 66%, 35%), hsl(353, 85%, 53%)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+header .logo{
+    position: relative;
+    transition: 0.6s;
+}
+img{
+    border-radius: 50px;
+}
+header ul{
+    position: relative;
+    display: grid;
+    grid-template-columns: 120px 120px 120px 120px;
+    align-items: center;
+}
+header ul li{
+    position: relative;
+    list-style: none;
+}
+.bar{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+    color: aliceblue;
+    align-items: center;
+}
+
+
+
+@media screen and (max-width: 1000px){
+    
+}
+.banner{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    z-index: 1;
+    object-fit: contain;
+}
