@@ -39,45 +39,36 @@ button{
     border-radius: 20PX;
     padding: 15px 0 15px 10px; 
     }
-/* .top-middle{
-    color: white;
+.top-middle, .top-grid1, .top-grid2 ,.top-grid3{
     display: flex;
-    justify-content: center;
+    justify-content: center;}
+ .top-middle{
+    color: white;
     align-items: center;}
 .top-right{
     display: grid;
     margin: auto;
     grid-template-columns: 60px 60px 90px;}
 .top-grid1{
-    display: flex;
-    justify-content: center;
     align-items: center;
     border: 1px solid #c3d8ff;}
 .top-grid2{
-    display: flex;
-    justify-content: center;
     margin: 0;
     padding: 0;
     text-align: center;}
 .top-grid3{
-    display: flex;
-    justify-content: center;
     align-items: center;
     margin-right: 10px;}
-.top-grid1:hover{
+.top-grid1:hover, .top-grid2:hover, .top-grid3:hover{
     margin: 0;
     padding: 0;
     opacity: 70%;}
-.top-grid2:hover{
-    border: 1px solid rgb(50, 108, 158);
-    opacity: 70%;}
-.top-grid3:hover{
-    border: 1px solid rgb(67, 129, 183);
-    opacity: 70%;}
-.top-grid2:active{
+    .top-grid3:hover{
+    margin-right: 10px;}
+.top-grid2:active, .top-grid2:active{
     background-color: blue;}
-.top-grid2:active{
-    background-color: blue;} */
+
+
 
  /*.div-home{}/////////////////*/
 
