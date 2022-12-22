@@ -1,49 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="menu.css">
-    <title>Document</title>
+  <meta charset="utf-8">
+  <title>My Blog</title>
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <header>
-            <a href="index.html" class="logo"><img style="width: 80px;" src="noface.jpg" alt="Logo"></a>
-        <div class="navigation">
-            <input type="checkbox" class="toggle">
-            <div class="burger-logo"></div>
-            <ul class="menu">
-                <li><a href="index.html" class="bar top-1">Home</a></li>
-                <li><a href="shop.html" class="bar top-2">Shop</a></li>
-                <li><a href="cart.html" class="bar top-3">Cart</a></li>
-                <li><a href="about.html" class="bar top-4">About</a></li>
-            </ul>
-        </div>
-    </header>
-    
-    
-
-
-    <section><img src="noface.jpg" class="banner" alt="Logo"></section>
-    <div>
-        <details>
-            <summary style="list-style: none;">pqowie</summary>
-            <a href="#">okat</a>
-            <p>sad</p>
-            <p>sad</p>
-            <p>sad</p>
-        </details>
-        <details>
-            <summary style="list-style: none;">dsa</summary>
-            <p>sad</p>
-            <p>sad</p>
-            <p>sad</p>
-            <p>sad</p>
-        </details>
+  <header>
+    <img src="noface.jpg" alt="Logo" class="logo">
+    <nav>
+      <ul class="nav-menu">
+        <li class="dropdown">
+          <a href="#">Menu 1</a>
+          <ul class="dropdown-content">
+            <li><a href="#">Submenu 1</a></li>
+            <li><a href="#">Submenu 2</a></li>
+            <li><a href="#">Submenu 3</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">Menu 2</a>
+          <ul class="dropdown-content">
+            <li><a href="#">Submenu 1</a></li>
+            <li><a href="#">Submenu 2</a></li>
+            <li><a href="#">Submenu 3</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">Menu 3</a>
+          <ul class="dropdown-content">
+            <li><a href="#">Submenu 1</a></li>
+            <li><a href="#">Submenu 2</a></li>
+            <li><a href="#">Submenu 3</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">Menu 4</a>
+          <ul class="dropdown-content">
+            <li><a href="#">Submenu 1</a></li>
+            <li><a href="#">Submenu 2</a></li>
+            <li><a href="#">Submenu 3</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div class="burger-menu">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
     </div>
-    
-    <script src="index.js"></script>
+  </header>
+  <main>
+    <div class="title">
+      <h1>My Blog</h1>
+    </div>
+    <div class="posts">
+      <article>
+        <h2>Post 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+      </article>
+      <article>
+        <h2>Post 2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat
+          Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+      </article>
+      <article>
+        <h2>Post 3</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+      </article>
+      <article>
+        <h2>Post4</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+      </article>
+    </div>
+  </main>
+  <footer>
+    <p>Copyright &copy; 2022 My Blog</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
