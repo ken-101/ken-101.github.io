@@ -1,11 +1,34 @@
-// Get the burger menu element
-const burgerMenu = document.querySelector(".burger-menu");
+const burgerMenuButton = document.getElementById('burger-menu-button');
+const navigationMenu = document.querySelector('nav ul');
 
-// Get the nav menu element
-const navMenu = document.querySelector("nav ul.nav-menu");
 
-// Add a click event listener to the burger menu
-burgerMenu.addEventListener("click", () => {
-  // Toggle the "open" class on the nav menu
-  navMenu.classList.toggle("open");
+const button = document.querySelector('#button');
+const div = document.querySelector('#div');
+
+
+const menuBtn = document.querySelector('.menu-btn');
+const menu = document.querySelector('.burger-menu');
+const dropdown = document.querySelector('.top-right');
+
+menuBtn.addEventListener('click', () => {
+  menu.classList.toggle('open');
+});
+const a = 'click'
+// menuBtn.addEventListener('click', () => {
+//   dropdown.classList.toggle('slide');
+// });
+// menuBtn.addEventListener('click', () => {
+//   dropdown.classList.toggle('top-right');
+// });
+const menuBtna = document.querySelector('#menuBtn');
+const openBtn = document.querySelector('.open');
+const closeBtn = document.querySelector('.close');
+
+
+document.addEventListener('click', event => {
+  if (event.target.closest(openBtn)) {
+    menuBtna.classList.add('slide');
+  } else if (event.target.closest(closeBtn)) {
+    menuBtna.classList.remove('slide');
+  }
 });

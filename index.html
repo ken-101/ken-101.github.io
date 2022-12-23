@@ -1,82 +1,71 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>My Blog</title>
-  <link rel="stylesheet" href="index.css">
-</head>
-<body>
-  <header>
-    <img src="noface.jpg" alt="Logo" class="logo">
-    <nav>
-      <ul class="nav-menu">
-        <li class="dropdown">
-          <a href="#">Menu 1</a>
-          <ul class="dropdown-content">
-            <li><a href="#">Submenu 1</a></li>
-            <li><a href="#">Submenu 2</a></li>
-            <li><a href="#">Submenu 3</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a href="#">Menu 2</a>
-          <ul class="dropdown-content">
-            <li><a href="#">Submenu 1</a></li>
-            <li><a href="#">Submenu 2</a></li>
-            <li><a href="#">Submenu 3</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a href="#">Menu 3</a>
-          <ul class="dropdown-content">
-            <li><a href="#">Submenu 1</a></li>
-            <li><a href="#">Submenu 2</a></li>
-            <li><a href="#">Submenu 3</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a href="#">Menu 4</a>
-          <ul class="dropdown-content">
-            <li><a href="#">Submenu 1</a></li>
-            <li><a href="#">Submenu 2</a></li>
-            <li><a href="#">Submenu 3</a></li>
-          </ul>
-        </li>
-      </ul>
-    </nav>
-    <div class="burger-menu">
-      <div class="line"></div>
-      <div class="line"></div>
-      <div class="line"></div>
-    </div>
-  </header>
-  <main>
-    <div class="title">
-      <h1>My Blog</h1>
-    </div>
-    <div class="posts">
-      <article>
-        <h2>Post 1</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
-      </article>
-      <article>
-        <h2>Post 2</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat
-          Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
-      </article>
-      <article>
-        <h2>Post 3</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
-      </article>
-      <article>
-        <h2>Post4</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
-      </article>
-    </div>
-  </main>
-  <footer>
-    <p>Copyright &copy; 2022 My Blog</p>
-  </footer>
-  <script src="script.js"></script>
-</body>
+  <head>
+    <meta name="description" content="Get to know 
+    me as a person and artist. My biography delves 
+    into my personal and professional experiences, 
+    as well as my achievements and goals. Explore 
+    my unique perspective and passion for creativity, 
+    self-expression, and personal growth. Discover more 
+    about my journey as a writer, artist, and individual.">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Website</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo1-2"><img class="logo" src="noface.jpg" alt="Logo" onclick="window.location.href='index.html'"></div>
+        <div class="top-center">
+          <h1 class="brand">Vinnity</h1>
+        </div>
+        <div class="burger-menu">
+          <button class="menu-btn">
+            <span class="menu-btn__burger"></span>
+            <span class="menu-btn__burger"></span>
+            <span class="menu-btn__burger"></span>
+          </button>
+        </div>
+        <div id="menuBtn" class=" open close top-right">
+          <div class="dropdown">
+            <button class="dropbtn">Home</button>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Biography</button>
+           
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">MyLife</button>
+            <div class="dropdown-content">
+              <a href="#">Child</a>
+              <a href="#">Teenager</a>
+              <a href="#">Adult</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Contacts</button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+    <img src="banner.png" alt="banner" class="banner">
+
+    </main>
+    <footer>
+      <p>Copyright 2022 My Website</p>
+      <p>Contact us: <a href="mailto:info@mywebsite.com">info@mywebsite.com</a></p>
+      <p>Follow us:
+        <a href="https://twitter.com/mywebsite">Twitter</a> |
+        <a href="https://facebook.com/mywebsite">Facebook</a> |
+        <a href="https://instagram.com/mywebsite">Instagram</a>
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
+
