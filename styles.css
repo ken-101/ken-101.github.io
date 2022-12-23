@@ -43,10 +43,10 @@ nav{
   text-align: center;
   align-items: center;
 }
-.top-center{
+/* .top-center{
   
   
-}
+} */
 .brand{
   position: absolute;
   top: 50%;
@@ -124,7 +124,7 @@ nav{
 .burger-menu.open .menu-btn__burger:nth-child(3) {
   transform: rotate(-45deg);
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   body {
     font-size: 16px;
   }
@@ -134,10 +134,24 @@ nav{
     text-align: center;
     align-items: center;
   }
+  .top-nav{
+    overflow:hidden;
+    position: relative;
+  }
   .brand{
     left: 55%;}
   .slide{
-    right: 0;
+    display: flex;
+    position: absolute;
+    background: #333333;
+    margin: 0;
+    padding: 50px 50px 50px 50px;
+    top: 130px;
+    right: 0px;
+    flex-direction: column;
+    gap: 30px;
+    text-align: end;
+    transition: ease-in-out 250ms;
   }
     .top-right{
     display: flex;
@@ -146,12 +160,13 @@ nav{
     margin: 0;
     padding: 50px 50px 50px 50px;
     top: 130px;
-    right: 0px;
+    right: -200px;
     flex-direction: column;
     gap: 30px;
-    transform: translateX(300px);
     text-align: end;
     transition: ease-in-out 250ms;
+    visibility: hidden;
+
   }
   
   .menu-btn{
