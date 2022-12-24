@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;}
 body {
+  height: 200vh;
   font-family: Arial, sans-serif;
   color: var(--blue);
   background-color: #ebebeb;}
@@ -19,6 +20,9 @@ p {
 a {
   color: var(--blue);
   text-decoration: none;}
+  img{
+    object-fit: cover;
+  }
 header{
   background: #333;
   display: block;
@@ -30,7 +34,6 @@ header{
   height: 100px;
   width: 100px;
   border-radius: 100%;
- 
 }
 .logo1-2{
   display: flex;
@@ -48,7 +51,12 @@ nav{
   
 } */
 .brand{
+  display: flex;
   position: absolute;
+  height: clamp(10px, 35%, 80px);
+  width: clamp(70px, 40%, 150px);
+  justify-content: center;
+  align-items: center;
   top: 50%;
   left: 43.5%;
   transform: translate(-50%, -50%);
@@ -128,25 +136,48 @@ nav{
   body {
     font-size: 16px;
   }
+  header{
+    background: #333;
+    display: block;
+    position: sticky;
+    top: 0;
+    padding: 3rem 6rem;
+  }
   nav{
     display: grid;
     grid-template-columns: 1fr 1fr 50px 0;
     text-align: center;
     align-items: center;
   }
+  
   .top-nav{
-    overflow:hidden;
-    position: relative;
   }
+  .logo{
+    height: auto;
+    width: 150px;
+  }
+  .logo1-2{
+  display: flex;
+  justify-items: flex-start;
+  padding-left: 0%;
+}
   .brand{
     left: 55%;}
+  .dropbtn{
+    font-size: 40px;
+    height: 80px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
   .slide{
     display: flex;
     position: absolute;
     background: #333333;
     margin: 0;
     padding: 50px 50px 50px 50px;
-    top: 130px;
+    width: 25vw;
+    height: 30vh;
+    top: 250px;
     right: 0px;
     flex-direction: column;
     gap: 30px;
@@ -159,8 +190,7 @@ nav{
     background: #333;
     margin: 0;
     padding: 50px 50px 50px 50px;
-    top: 130px;
-    right: -200px;
+    top: 250px;
     flex-direction: column;
     gap: 30px;
     text-align: end;
@@ -172,11 +202,18 @@ nav{
   .menu-btn{
     display: grid;
   }
+  .menu-btn__burger {
+    width: 2rem;
+    height: 0.25rem;
+    background: rgb(214, 209, 209);
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    position: relative;
+    transform-origin: 1px;
+  }
 }
 .banner {
   width: 100vw;
-  height: 70vh;
   object-fit: cover;
   display: block;
-  margin: 0 auto;
 }
