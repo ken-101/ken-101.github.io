@@ -16,7 +16,6 @@ html,
 body {
   font-family: 'Poppins', sans-serif;
   color: #111;
-  height: 200vh;
 }
 
 h1 {
@@ -48,7 +47,7 @@ section.home {
   cursor: pointer;
   display: inline-block;
   background: var(--primary-color);
-  color: rgb(36, 212, 198);
+  color: #fff;
   text-decoration: none;
   padding: 10px 30px;
   margin: 20px 0;
@@ -60,23 +59,21 @@ section.home {
 }
 
 .logo {
-  display: flex;
-  justify-content: left;
-  margin: 0 100px;
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  font-size: 2rem;
+  font-weight: 700;
   z-index: 20;
 }
 
 /* TOGGLE */
-.cent{
-  display: flex;
-  justify-content: right;
-  margin: 0 70px;
-}
 .toggle {
-  width: 100px;
-  height: 100px;
-  display: flex;
-  justify-content: right;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
   background: var(--primary-color) url(../images/menu.png);
   background-size: 30px;
   background-position: center;
@@ -91,57 +88,69 @@ section.home {
   background-position: center;
   background-repeat: no-repeat;
 }
-header{
-  background: rgb(179, 177, 177);
-  position: sticky;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: center;
-  align-items: center;
-  padding: 30px 0;
-}
+
 /* NAVIGATION */
 .navigation {
   position: fixed;
-  top: 60px;
+  top: 0;
   left: 100%;
-  width: 40%;
-  height: 70%;
-  background-color: rgb(56, 54, 54);
+  width: 30%;
+  height: 100%;
+  background-color: #fff;
   z-index: 15;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 0.4s;
+  transition: 1s;
 }
 
 .navigation.active {
-  left: 60%;
+  left: 70%;
 }
 
 .navigation ul {
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-  align-items: flex-end;
+  position: relative;
+  opacity: 20%;
 }
 
 .navigation ul li {
+  position: relative;
   list-style: none;
   text-align: center;
 }
 
 .navigation ul li a {
-  font-size: 1px;
-  color: rgb(187, 187, 187);
+  font-size: 2.2rem;
+  color: #111;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .navigation ul li a:hover {
   color: var(--primary-color);
 }
 
+.navigation .social-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation .social-bar a {
+  display: inline-block;
+  transform: scale(0.5);
+}
+
+.navigation .email-icon {
+  position: absolute;
+  bottom: 20px;
+  transform: scale(0.5);
+}
 
 /* HOMEPAGE */
 .home-content {
